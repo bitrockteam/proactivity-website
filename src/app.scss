@@ -1,0 +1,301 @@
+* {
+  scroll-behavior: smooth;
+  box-sizing:border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: #404040;
+}
+
+a {
+  text-decoration: none;
+  display:block;
+  cursor:pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  background-color:black;
+  border-radius:0;
+  border:none;
+  text-transform: uppercase;
+  color:white;
+  line-height:56px;
+  padding:0 24px;
+  font-size: 18px;
+  outline:none;
+  cursor:pointer;
+
+}
+
+p {
+font-size: 18px;
+color: #404040;
+font-weight:200;
+line-height: 28px;
+margin:0;
+padding:0;
+margin-bottom:24px;
+}
+
+ul {
+  font-size: 18px;
+  font-weight:200;
+  line-height: 28px;
+    list-style:none;
+    padding:0;
+  margin:0;
+  
+  }
+
+  li {
+    list-style-type:none;
+    
+    font-size: 18px;
+  font-weight:300;
+  line-height: 28px;
+  }
+  
+
+  h2 {
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 60px;
+    font-weight:400;
+  }
+  
+  h3 {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight:600;
+    padding:0;
+    margin:0;
+    margin-bottom:5px;
+    text-transform:uppercase;
+  }
+
+.content {
+  width:100%;
+  padding:0 24px;
+  max-width:1300px;
+  margin:0 auto;
+}
+
+
+.how-we-work-image {
+  width:100%;
+  padding-bottom:16%;
+  background:url("/how-we-work.png");
+  background-size:cover;
+  background-position:center right;
+  display:flex;
+  align-items:center;
+  position:relative;
+  margin-bottom:24px;
+  
+
+  >p {
+    margin:0;
+    max-width:40%;
+    font-weight:600;
+    font-size: 20px;
+    line-height: 30px;
+    position:absolute;
+    top:50%;
+    left:24px;
+    transform:translateY(-50%);
+  }
+
+}
+
+.cookie-notice {
+  background:black;
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  z-index:2;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  > * {
+    margin: 0 12px;
+  }
+  >p {
+    font-size:14px;
+    line-height:48px;
+    color:white;
+  }
+  >button {
+    background-color:#405C75;
+    font-size:16px;
+    line-height:32px;
+  }
+  >svg {cursor:pointer;}
+}
+
+.mindset-image {
+  width:50%;
+  margin:0 24px 24px -10px;
+}
+
+.technologies-container {
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+
+  > div {
+    width:45%;
+    padding: 24px 0;
+
+    >h4 {
+      width:100%;
+      font-size:18px;
+      font-weight:500;
+      //text-align:center;
+      border-bottom:1px solid #d8d8d8;
+      padding-bottom:12px;
+      margin-bottom:24px;
+    }
+
+    >p {
+      margin:0;
+
+      >b {
+        font-weight:400;
+      }
+    }
+  }
+}
+
+.contacts-container {
+  display:flex;
+  justify-content:space-between;
+  padding-bottom:48px;
+  flex-direction:row;
+  > div {
+    
+
+    &:first-of-type {
+      width:50%;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      >div>p {
+        margin:0;
+      }
+      a {
+        text-decoration:underline;
+        text-decoration-color: #404040;
+        >p {margin:0;}
+      }
+    }
+    &:last-of-type { 
+      padding-top:0;
+      width:40%;
+      display:flex;
+      align-items:flex-start;
+      flex-direction:column;
+      justify-content:flex-end;
+
+      >input {
+        line-height:28px;
+        font-size:18px;
+        border:none;
+        border-bottom:1px solid black;
+        outline:none;
+        width:100%;
+      }
+    }
+  }
+}
+
+@media(max-width:899px) {
+
+  .mindset-image {
+    width:100%;
+    margin:0 0 24px -10px;
+  }
+
+  .technologies-container {
+    flex-direction:column;
+  
+    > div {
+      width:100%;
+    }
+  }
+
+  .contacts-container {
+    flex-direction:column;
+    > div {
+      &:first-of-type {
+        width:100%;
+      }
+      &:last-of-type { 
+        padding-top:48px;
+        width:100%;
+      }
+    }
+  }
+}
+
+@media(min-width:700px) and (max-width:899px) {
+
+  .how-we-work-image {
+    padding-bottom:16%;
+    background:linear-gradient(to top left, rgba(255,255,255,0.3), rgba(255,255,255,0.2)), url("/how-we-work.png");
+    background-size:cover;
+    background-position:center right;
+    >p {
+      max-width:100%;
+      font-size:18px;
+      padding-right:24px;
+    }
+  
+  }
+}
+
+@media(min-width:425px) and (max-width:699px) {
+
+  .how-we-work-image {
+    padding-bottom: 35%;
+    background:linear-gradient(to top left, rgba(255,255,255,0.3), rgba(255,255,255,0.2)), url("/how-we-work.png");
+    background-size:cover;
+    background-position:center right;
+    >p {
+      font-size:18px;
+      max-width:100%;
+      padding-right:24px;
+    }
+  
+  }
+  
+}
+
+
+@media(max-width:425px) {
+
+  .how-we-work-image {
+    padding-bottom: 40%;
+    background:linear-gradient(to top left, rgba(255,255,255,0.3), rgba(255,255,255,0.2)), url("/how-we-work.png");
+    background-size:cover;
+    background-position:center right;
+    >p {
+      font-size:16px;
+      max-width:100%;
+      padding-right:24px;
+      line-height: 24px;
+    }
+  
+  }
+  
+}
