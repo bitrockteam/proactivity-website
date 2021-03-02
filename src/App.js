@@ -13,7 +13,6 @@ import Contacts from './components/Contacts'
 import CookieNotice from './components/CookieNotice'
 
 function App() {
-  
 
   return (
     <Root>
