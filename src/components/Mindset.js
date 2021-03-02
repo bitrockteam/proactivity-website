@@ -13,7 +13,6 @@ function Mindset() {
           <p style={{clear:"left"}}>All this makes ProActivity <b>a trustworthy Partner for your business</b>, ready to listen to your needs and respond to them with great care and attention to detail.</p>
         
         </Fragment>
-        
     )
 
 }
