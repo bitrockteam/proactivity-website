@@ -34,7 +34,6 @@ function Contacts() {
             </div>
           </div>
         </Fragment>
-        
     )
 
 }
