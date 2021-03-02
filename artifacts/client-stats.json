@@ -1,13 +1,13 @@
 {
   "errors": [],
   "warnings": [
-    "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  templates/vendors~main.83565af6.js (288 KiB)",
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (293 KiB). This can impact web performance.\nEntrypoints:\n  main (314 KiB)\n      styles.83e3a78c.css\n      templates/styles.cc834d5d.js\n      templates/vendors~main.83565af6.js\n      main.2ba9eaa7.js\n"
+    "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  templates/vendors~main.2ee9376e.js (290 KiB)",
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (293 KiB). This can impact web performance.\nEntrypoints:\n  main (315 KiB)\n      styles.83e3a78c.css\n      templates/styles.cc834d5d.js\n      templates/vendors~main.2ee9376e.js\n      main.2ba9eaa7.js\n"
   ],
   "version": "4.46.0",
-  "hash": "cbe76a51af28fb077478",
-  "time": 2027,
-  "builtAt": 1614684359562,
+  "hash": "480a7698135deffe622a",
+  "time": 6049,
+  "builtAt": 1614692072898,
   "publicPath": "/",
   "outputPath": "/Users/mariaburlando/Desktop/proactivity/dist",
   "assetsByChunkName": {
@@ -18,7 +18,7 @@
       "styles.83e3a78c.css",
       "templates/styles.cc834d5d.js"
     ],
-    "vendors~main": "templates/vendors~main.83565af6.js"
+    "vendors~main": "templates/vendors~main.2ee9376e.js"
   },
   "assets": [
     {
@@ -92,8 +92,8 @@
       "emitted": true
     },
     {
-      "name": "templates/vendors~main.83565af6.js",
-      "size": 295135,
+      "name": "templates/vendors~main.2ee9376e.js",
+      "size": 296715,
       "chunks": [
         4
       ],
@@ -118,7 +118,7 @@
       "assets": [
         "styles.83e3a78c.css",
         "templates/styles.cc834d5d.js",
-        "templates/vendors~main.83565af6.js",
+        "templates/vendors~main.2ee9376e.js",
         "main.2ba9eaa7.js"
       ],
       "children": {},
@@ -136,7 +136,7 @@
       "assets": [
         "styles.83e3a78c.css",
         "templates/styles.cc834d5d.js",
-        "templates/vendors~main.83565af6.js",
+        "templates/vendors~main.2ee9376e.js",
         "main.2ba9eaa7.js"
       ],
       "children": {},
@@ -2292,14 +2292,14 @@
       "initial": true,
       "entry": false,
       "reason": "split chunk (cache group: vendors) (name: vendors~main)",
-      "size": 628900,
+      "size": 631317,
       "names": [
         "vendors~main"
       ],
       "files": [
-        "templates/vendors~main.83565af6.js"
+        "templates/vendors~main.2ee9376e.js"
       ],
-      "hash": "197b323ec5c7e13f2ff7",
+      "hash": "a68912bc1d5896af9491",
       "siblings": [
         2,
         3
@@ -2406,7 +2406,7 @@
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-42"
+              "loc": "1:0-35"
             },
             {
               "moduleId": 24,
@@ -2415,7 +2415,7 @@
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-35"
+              "loc": "1:0-42"
             },
             {
               "moduleId": 24,
@@ -2550,7 +2550,7 @@
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:98-104"
+              "loc": "1:98-106"
             },
             {
               "moduleId": 24,
@@ -2559,7 +2559,7 @@
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:98-106"
+              "loc": "1:98-104"
             },
             {
               "moduleId": 24,
@@ -5194,7 +5194,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/typeof.js",
           "index": 6,
           "index2": 0,
-          "size": 479,
+          "size": 723,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5486,7 +5486,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 3,
-          "source": "function _typeof(obj) {\n  \"@babel/helpers - typeof\";\n\n  if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") {\n    module.exports = _typeof = function _typeof(obj) {\n      return typeof obj;\n    };\n  } else {\n    module.exports = _typeof = function _typeof(obj) {\n      return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj;\n    };\n  }\n\n  return _typeof(obj);\n}\n\nmodule.exports = _typeof;"
+          "source": "function _typeof(obj) {\n  \"@babel/helpers - typeof\";\n\n  if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") {\n    module.exports = _typeof = function _typeof(obj) {\n      return typeof obj;\n    };\n\n    module.exports[\"default\"] = module.exports, module.exports.__esModule = true;\n  } else {\n    module.exports = _typeof = function _typeof(obj) {\n      return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj;\n    };\n\n    module.exports[\"default\"] = module.exports, module.exports.__esModule = true;\n  }\n\n  return _typeof(obj);\n}\n\nmodule.exports = _typeof;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 3,
@@ -5494,7 +5494,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
           "index": 9,
           "index2": 4,
-          "size": 147,
+          "size": 225,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5682,7 +5682,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 2,
-          "source": "function _interopRequireDefault(obj) {\n  return obj && obj.__esModule ? obj : {\n    \"default\": obj\n  };\n}\n\nmodule.exports = _interopRequireDefault;"
+          "source": "function _interopRequireDefault(obj) {\n  return obj && obj.__esModule ? obj : {\n    \"default\": obj\n  };\n}\n\nmodule.exports = _interopRequireDefault;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 4,
@@ -6288,9 +6288,9 @@
           "chunks": [
             4
           ],
-          "issuer": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
+          "issuer": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js",
           "issuerId": null,
-          "issuerName": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
+          "issuerName": "/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js",
           "issuerPath": [
             {
               "id": 65,
@@ -6314,8 +6314,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
-              "name": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js"
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js",
+              "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js"
             }
           ],
           "failed": false,
@@ -6412,7 +6412,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
           "index": 27,
           "index2": 26,
-          "size": 432,
+          "size": 522,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -6515,7 +6515,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 3,
-          "source": "var arrayWithHoles = require(\"./arrayWithHoles\");\n\nvar iterableToArrayLimit = require(\"./iterableToArrayLimit\");\n\nvar unsupportedIterableToArray = require(\"./unsupportedIterableToArray\");\n\nvar nonIterableRest = require(\"./nonIterableRest\");\n\nfunction _slicedToArray(arr, i) {\n  return arrayWithHoles(arr) || iterableToArrayLimit(arr, i) || unsupportedIterableToArray(arr, i) || nonIterableRest();\n}\n\nmodule.exports = _slicedToArray;"
+          "source": "var arrayWithHoles = require(\"./arrayWithHoles.js\");\n\nvar iterableToArrayLimit = require(\"./iterableToArrayLimit.js\");\n\nvar unsupportedIterableToArray = require(\"./unsupportedIterableToArray.js\");\n\nvar nonIterableRest = require(\"./nonIterableRest.js\");\n\nfunction _slicedToArray(arr, i) {\n  return arrayWithHoles(arr) || iterableToArrayLimit(arr, i) || unsupportedIterableToArray(arr, i) || nonIterableRest();\n}\n\nmodule.exports = _slicedToArray;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 10,
@@ -7231,7 +7231,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/extends.js",
           "index": 77,
           "index2": 71,
-          "size": 427,
+          "size": 585,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -7307,7 +7307,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 3,
-          "source": "function _extends() {\n  module.exports = _extends = Object.assign || function (target) {\n    for (var i = 1; i < arguments.length; i++) {\n      var source = arguments[i];\n\n      for (var key in source) {\n        if (Object.prototype.hasOwnProperty.call(source, key)) {\n          target[key] = source[key];\n        }\n      }\n    }\n\n    return target;\n  };\n\n  return _extends.apply(this, arguments);\n}\n\nmodule.exports = _extends;"
+          "source": "function _extends() {\n  module.exports = _extends = Object.assign || function (target) {\n    for (var i = 1; i < arguments.length; i++) {\n      var source = arguments[i];\n\n      for (var key in source) {\n        if (Object.prototype.hasOwnProperty.call(source, key)) {\n          target[key] = source[key];\n        }\n      }\n    }\n\n    return target;\n  };\n\n  module.exports[\"default\"] = module.exports, module.exports.__esModule = true;\n  return _extends.apply(this, arguments);\n}\n\nmodule.exports = _extends;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 18,
@@ -7948,7 +7948,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
           "index": 76,
           "index2": 70,
-          "size": 1191,
+          "size": 1280,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -8010,7 +8010,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 2,
-          "source": "var _typeof = require(\"@babel/runtime/helpers/typeof\");\n\nfunction _getRequireWildcardCache() {\n  if (typeof WeakMap !== \"function\") return null;\n  var cache = new WeakMap();\n\n  _getRequireWildcardCache = function _getRequireWildcardCache() {\n    return cache;\n  };\n\n  return cache;\n}\n\nfunction _interopRequireWildcard(obj) {\n  if (obj && obj.__esModule) {\n    return obj;\n  }\n\n  if (obj === null || _typeof(obj) !== \"object\" && typeof obj !== \"function\") {\n    return {\n      \"default\": obj\n    };\n  }\n\n  var cache = _getRequireWildcardCache();\n\n  if (cache && cache.has(obj)) {\n    return cache.get(obj);\n  }\n\n  var newObj = {};\n  var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;\n\n  for (var key in obj) {\n    if (Object.prototype.hasOwnProperty.call(obj, key)) {\n      var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;\n\n      if (desc && (desc.get || desc.set)) {\n        Object.defineProperty(newObj, key, desc);\n      } else {\n        newObj[key] = obj[key];\n      }\n    }\n  }\n\n  newObj[\"default\"] = obj;\n\n  if (cache) {\n    cache.set(obj, newObj);\n  }\n\n  return newObj;\n}\n\nmodule.exports = _interopRequireWildcard;"
+          "source": "var _typeof = require(\"@babel/runtime/helpers/typeof\")[\"default\"];\n\nfunction _getRequireWildcardCache() {\n  if (typeof WeakMap !== \"function\") return null;\n  var cache = new WeakMap();\n\n  _getRequireWildcardCache = function _getRequireWildcardCache() {\n    return cache;\n  };\n\n  return cache;\n}\n\nfunction _interopRequireWildcard(obj) {\n  if (obj && obj.__esModule) {\n    return obj;\n  }\n\n  if (obj === null || _typeof(obj) !== \"object\" && typeof obj !== \"function\") {\n    return {\n      \"default\": obj\n    };\n  }\n\n  var cache = _getRequireWildcardCache();\n\n  if (cache && cache.has(obj)) {\n    return cache.get(obj);\n  }\n\n  var newObj = {};\n  var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;\n\n  for (var key in obj) {\n    if (Object.prototype.hasOwnProperty.call(obj, key)) {\n      var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;\n\n      if (desc && (desc.get || desc.set)) {\n        Object.defineProperty(newObj, key, desc);\n      } else {\n        newObj[key] = obj[key];\n      }\n    }\n  }\n\n  newObj[\"default\"] = obj;\n\n  if (cache) {\n    cache.set(obj, newObj);\n  }\n\n  return newObj;\n}\n\nmodule.exports = _interopRequireWildcard;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 27,
@@ -8628,7 +8628,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
           "index": 30,
           "index2": 24,
-          "size": 528,
+          "size": 609,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -8672,8 +8672,8 @@
               "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
               "type": "cjs require",
-              "userRequest": "./unsupportedIterableToArray",
-              "loc": "5:33-72"
+              "userRequest": "./unsupportedIterableToArray.js",
+              "loc": "5:33-75"
             },
             {
               "moduleId": 83,
@@ -8681,8 +8681,8 @@
               "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
               "type": "cjs require",
-              "userRequest": "./unsupportedIterableToArray",
-              "loc": "5:33-72"
+              "userRequest": "./unsupportedIterableToArray.js",
+              "loc": "5:33-75"
             }
           ],
           "usedExports": true,
@@ -8691,7 +8691,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "var arrayLikeToArray = require(\"./arrayLikeToArray\");\n\nfunction _unsupportedIterableToArray(o, minLen) {\n  if (!o) return;\n  if (typeof o === \"string\") return arrayLikeToArray(o, minLen);\n  var n = Object.prototype.toString.call(o).slice(8, -1);\n  if (n === \"Object\" && o.constructor) n = o.constructor.name;\n  if (n === \"Map\" || n === \"Set\") return Array.from(o);\n  if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return arrayLikeToArray(o, minLen);\n}\n\nmodule.exports = _unsupportedIterableToArray;"
+          "source": "var arrayLikeToArray = require(\"./arrayLikeToArray.js\");\n\nfunction _unsupportedIterableToArray(o, minLen) {\n  if (!o) return;\n  if (typeof o === \"string\") return arrayLikeToArray(o, minLen);\n  var n = Object.prototype.toString.call(o).slice(8, -1);\n  if (n === \"Object\" && o.constructor) n = o.constructor.name;\n  if (n === \"Map\" || n === \"Set\") return Array.from(o);\n  if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return arrayLikeToArray(o, minLen);\n}\n\nmodule.exports = _unsupportedIterableToArray;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 35,
@@ -8699,7 +8699,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
           "index": 31,
           "index2": 23,
-          "size": 234,
+          "size": 312,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -8748,8 +8748,8 @@
               "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
               "type": "cjs require",
-              "userRequest": "./arrayLikeToArray",
-              "loc": "1:23-52"
+              "userRequest": "./arrayLikeToArray.js",
+              "loc": "1:23-55"
             },
             {
               "moduleId": 84,
@@ -8757,8 +8757,8 @@
               "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js",
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js",
               "type": "cjs require",
-              "userRequest": "./arrayLikeToArray",
-              "loc": "1:23-52"
+              "userRequest": "./arrayLikeToArray.js",
+              "loc": "1:23-55"
             }
           ],
           "usedExports": true,
@@ -8767,7 +8767,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 5,
-          "source": "function _arrayLikeToArray(arr, len) {\n  if (len == null || len > arr.length) len = arr.length;\n\n  for (var i = 0, arr2 = new Array(len); i < len; i++) {\n    arr2[i] = arr[i];\n  }\n\n  return arr2;\n}\n\nmodule.exports = _arrayLikeToArray;"
+          "source": "function _arrayLikeToArray(arr, len) {\n  if (len == null || len > arr.length) len = arr.length;\n\n  for (var i = 0, arr2 = new Array(len); i < len; i++) {\n    arr2[i] = arr[i];\n  }\n\n  return arr2;\n}\n\nmodule.exports = _arrayLikeToArray;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 36,
@@ -8912,7 +8912,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/asyncToGenerator.js",
           "index": 36,
           "index2": 29,
-          "size": 809,
+          "size": 887,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -8970,7 +8970,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 3,
-          "source": "function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {\n  try {\n    var info = gen[key](arg);\n    var value = info.value;\n  } catch (error) {\n    reject(error);\n    return;\n  }\n\n  if (info.done) {\n    resolve(value);\n  } else {\n    Promise.resolve(value).then(_next, _throw);\n  }\n}\n\nfunction _asyncToGenerator(fn) {\n  return function () {\n    var self = this,\n        args = arguments;\n    return new Promise(function (resolve, reject) {\n      var gen = fn.apply(self, args);\n\n      function _next(value) {\n        asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n      }\n\n      function _throw(err) {\n        asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n      }\n\n      _next(undefined);\n    });\n  };\n}\n\nmodule.exports = _asyncToGenerator;"
+          "source": "function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {\n  try {\n    var info = gen[key](arg);\n    var value = info.value;\n  } catch (error) {\n    reject(error);\n    return;\n  }\n\n  if (info.done) {\n    resolve(value);\n  } else {\n    Promise.resolve(value).then(_next, _throw);\n  }\n}\n\nfunction _asyncToGenerator(fn) {\n  return function () {\n    var self = this,\n        args = arguments;\n    return new Promise(function (resolve, reject) {\n      var gen = fn.apply(self, args);\n\n      function _next(value) {\n        asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n      }\n\n      function _throw(err) {\n        asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n      }\n\n      _next(undefined);\n    });\n  };\n}\n\nmodule.exports = _asyncToGenerator;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 39,
@@ -10385,8 +10385,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
-              "name": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js"
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js",
+              "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js"
             },
             {
               "id": 8,
@@ -11192,7 +11192,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/classCallCheck.js",
           "index": 20,
           "index2": 14,
-          "size": 196,
+          "size": 274,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -11256,7 +11256,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 6,
-          "source": "function _classCallCheck(instance, Constructor) {\n  if (!(instance instanceof Constructor)) {\n    throw new TypeError(\"Cannot call a class as a function\");\n  }\n}\n\nmodule.exports = _classCallCheck;"
+          "source": "function _classCallCheck(instance, Constructor) {\n  if (!(instance instanceof Constructor)) {\n    throw new TypeError(\"Cannot call a class as a function\");\n  }\n}\n\nmodule.exports = _classCallCheck;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 74,
@@ -11264,7 +11264,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/createClass.js",
           "index": 21,
           "index2": 15,
-          "size": 596,
+          "size": 674,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -11328,7 +11328,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 6,
-          "source": "function _defineProperties(target, props) {\n  for (var i = 0; i < props.length; i++) {\n    var descriptor = props[i];\n    descriptor.enumerable = descriptor.enumerable || false;\n    descriptor.configurable = true;\n    if (\"value\" in descriptor) descriptor.writable = true;\n    Object.defineProperty(target, descriptor.key, descriptor);\n  }\n}\n\nfunction _createClass(Constructor, protoProps, staticProps) {\n  if (protoProps) _defineProperties(Constructor.prototype, protoProps);\n  if (staticProps) _defineProperties(Constructor, staticProps);\n  return Constructor;\n}\n\nmodule.exports = _createClass;"
+          "source": "function _defineProperties(target, props) {\n  for (var i = 0; i < props.length; i++) {\n    var descriptor = props[i];\n    descriptor.enumerable = descriptor.enumerable || false;\n    descriptor.configurable = true;\n    if (\"value\" in descriptor) descriptor.writable = true;\n    Object.defineProperty(target, descriptor.key, descriptor);\n  }\n}\n\nfunction _createClass(Constructor, protoProps, staticProps) {\n  if (protoProps) _defineProperties(Constructor.prototype, protoProps);\n  if (staticProps) _defineProperties(Constructor, staticProps);\n  return Constructor;\n}\n\nmodule.exports = _createClass;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 75,
@@ -11336,7 +11336,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/inherits.js",
           "index": 22,
           "index2": 17,
-          "size": 505,
+          "size": 586,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -11400,7 +11400,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 6,
-          "source": "var setPrototypeOf = require(\"./setPrototypeOf\");\n\nfunction _inherits(subClass, superClass) {\n  if (typeof superClass !== \"function\" && superClass !== null) {\n    throw new TypeError(\"Super expression must either be null or a function\");\n  }\n\n  subClass.prototype = Object.create(superClass && superClass.prototype, {\n    constructor: {\n      value: subClass,\n      writable: true,\n      configurable: true\n    }\n  });\n  if (superClass) setPrototypeOf(subClass, superClass);\n}\n\nmodule.exports = _inherits;"
+          "source": "var setPrototypeOf = require(\"./setPrototypeOf.js\");\n\nfunction _inherits(subClass, superClass) {\n  if (typeof superClass !== \"function\" && superClass !== null) {\n    throw new TypeError(\"Super expression must either be null or a function\");\n  }\n\n  subClass.prototype = Object.create(superClass && superClass.prototype, {\n    constructor: {\n      value: subClass,\n      writable: true,\n      configurable: true\n    }\n  });\n  if (superClass) setPrototypeOf(subClass, superClass);\n}\n\nmodule.exports = _inherits;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 76,
@@ -11408,7 +11408,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/setPrototypeOf.js",
           "index": 23,
           "index2": 16,
-          "size": 237,
+          "size": 395,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -11467,8 +11467,8 @@
               "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/inherits.js",
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/inherits.js",
               "type": "cjs require",
-              "userRequest": "./setPrototypeOf",
-              "loc": "1:21-48"
+              "userRequest": "./setPrototypeOf.js",
+              "loc": "1:21-51"
             }
           ],
           "usedExports": true,
@@ -11477,7 +11477,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 7,
-          "source": "function _setPrototypeOf(o, p) {\n  module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {\n    o.__proto__ = p;\n    return o;\n  };\n\n  return _setPrototypeOf(o, p);\n}\n\nmodule.exports = _setPrototypeOf;"
+          "source": "function _setPrototypeOf(o, p) {\n  module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {\n    o.__proto__ = p;\n    return o;\n  };\n\n  module.exports[\"default\"] = module.exports, module.exports.__esModule = true;\n  return _setPrototypeOf(o, p);\n}\n\nmodule.exports = _setPrototypeOf;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 77,
@@ -11485,7 +11485,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
           "index": 24,
           "index2": 19,
-          "size": 355,
+          "size": 447,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -11549,7 +11549,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 6,
-          "source": "var _typeof = require(\"@babel/runtime/helpers/typeof\");\n\nvar assertThisInitialized = require(\"./assertThisInitialized\");\n\nfunction _possibleConstructorReturn(self, call) {\n  if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) {\n    return call;\n  }\n\n  return assertThisInitialized(self);\n}\n\nmodule.exports = _possibleConstructorReturn;"
+          "source": "var _typeof = require(\"@babel/runtime/helpers/typeof\")[\"default\"];\n\nvar assertThisInitialized = require(\"./assertThisInitialized.js\");\n\nfunction _possibleConstructorReturn(self, call) {\n  if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) {\n    return call;\n  }\n\n  return assertThisInitialized(self);\n}\n\nmodule.exports = _possibleConstructorReturn;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 78,
@@ -11557,7 +11557,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/assertThisInitialized.js",
           "index": 25,
           "index2": 18,
-          "size": 219,
+          "size": 297,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -11616,8 +11616,8 @@
               "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
               "type": "cjs require",
-              "userRequest": "./assertThisInitialized",
-              "loc": "3:28-62"
+              "userRequest": "./assertThisInitialized.js",
+              "loc": "3:28-65"
             }
           ],
           "usedExports": true,
@@ -11626,7 +11626,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 7,
-          "source": "function _assertThisInitialized(self) {\n  if (self === void 0) {\n    throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");\n  }\n\n  return self;\n}\n\nmodule.exports = _assertThisInitialized;"
+          "source": "function _assertThisInitialized(self) {\n  if (self === void 0) {\n    throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");\n  }\n\n  return self;\n}\n\nmodule.exports = _assertThisInitialized;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 79,
@@ -11634,7 +11634,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
           "index": 26,
           "index2": 20,
-          "size": 267,
+          "size": 425,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -11698,7 +11698,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 6,
-          "source": "function _getPrototypeOf(o) {\n  module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {\n    return o.__proto__ || Object.getPrototypeOf(o);\n  };\n  return _getPrototypeOf(o);\n}\n\nmodule.exports = _getPrototypeOf;"
+          "source": "function _getPrototypeOf(o) {\n  module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {\n    return o.__proto__ || Object.getPrototypeOf(o);\n  };\n  module.exports[\"default\"] = module.exports, module.exports.__esModule = true;\n  return _getPrototypeOf(o);\n}\n\nmodule.exports = _getPrototypeOf;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 80,
@@ -11706,7 +11706,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/arrayWithHoles.js",
           "index": 28,
           "index2": 21,
-          "size": 106,
+          "size": 184,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -11750,8 +11750,8 @@
               "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
               "type": "cjs require",
-              "userRequest": "./arrayWithHoles",
-              "loc": "1:21-48"
+              "userRequest": "./arrayWithHoles.js",
+              "loc": "1:21-51"
             }
           ],
           "usedExports": true,
@@ -11760,7 +11760,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "function _arrayWithHoles(arr) {\n  if (Array.isArray(arr)) return arr;\n}\n\nmodule.exports = _arrayWithHoles;"
+          "source": "function _arrayWithHoles(arr) {\n  if (Array.isArray(arr)) return arr;\n}\n\nmodule.exports = _arrayWithHoles;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 81,
@@ -11768,7 +11768,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
           "index": 29,
           "index2": 22,
-          "size": 605,
+          "size": 683,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -11812,8 +11812,8 @@
               "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
               "type": "cjs require",
-              "userRequest": "./iterableToArrayLimit",
-              "loc": "3:27-60"
+              "userRequest": "./iterableToArrayLimit.js",
+              "loc": "3:27-63"
             }
           ],
           "usedExports": true,
@@ -11822,7 +11822,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "function _iterableToArrayLimit(arr, i) {\n  if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return;\n  var _arr = [];\n  var _n = true;\n  var _d = false;\n  var _e = undefined;\n\n  try {\n    for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {\n      _arr.push(_s.value);\n\n      if (i && _arr.length === i) break;\n    }\n  } catch (err) {\n    _d = true;\n    _e = err;\n  } finally {\n    try {\n      if (!_n && _i[\"return\"] != null) _i[\"return\"]();\n    } finally {\n      if (_d) throw _e;\n    }\n  }\n\n  return _arr;\n}\n\nmodule.exports = _iterableToArrayLimit;"
+          "source": "function _iterableToArrayLimit(arr, i) {\n  if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return;\n  var _arr = [];\n  var _n = true;\n  var _d = false;\n  var _e = undefined;\n\n  try {\n    for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {\n      _arr.push(_s.value);\n\n      if (i && _arr.length === i) break;\n    }\n  } catch (err) {\n    _d = true;\n    _e = err;\n  } finally {\n    try {\n      if (!_n && _i[\"return\"] != null) _i[\"return\"]();\n    } finally {\n      if (_d) throw _e;\n    }\n  }\n\n  return _arr;\n}\n\nmodule.exports = _iterableToArrayLimit;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 82,
@@ -11830,7 +11830,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/nonIterableRest.js",
           "index": 32,
           "index2": 25,
-          "size": 231,
+          "size": 309,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -11874,8 +11874,8 @@
               "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
               "type": "cjs require",
-              "userRequest": "./nonIterableRest",
-              "loc": "7:22-50"
+              "userRequest": "./nonIterableRest.js",
+              "loc": "7:22-53"
             }
           ],
           "usedExports": true,
@@ -11884,7 +11884,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "function _nonIterableRest() {\n  throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\");\n}\n\nmodule.exports = _nonIterableRest;"
+          "source": "function _nonIterableRest() {\n  throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\");\n}\n\nmodule.exports = _nonIterableRest;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 83,
@@ -11892,7 +11892,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
           "index": 37,
           "index2": 33,
-          "size": 431,
+          "size": 521,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -11941,7 +11941,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 3,
-          "source": "var arrayWithoutHoles = require(\"./arrayWithoutHoles\");\n\nvar iterableToArray = require(\"./iterableToArray\");\n\nvar unsupportedIterableToArray = require(\"./unsupportedIterableToArray\");\n\nvar nonIterableSpread = require(\"./nonIterableSpread\");\n\nfunction _toConsumableArray(arr) {\n  return arrayWithoutHoles(arr) || iterableToArray(arr) || unsupportedIterableToArray(arr) || nonIterableSpread();\n}\n\nmodule.exports = _toConsumableArray;"
+          "source": "var arrayWithoutHoles = require(\"./arrayWithoutHoles.js\");\n\nvar iterableToArray = require(\"./iterableToArray.js\");\n\nvar unsupportedIterableToArray = require(\"./unsupportedIterableToArray.js\");\n\nvar nonIterableSpread = require(\"./nonIterableSpread.js\");\n\nfunction _toConsumableArray(arr) {\n  return arrayWithoutHoles(arr) || iterableToArray(arr) || unsupportedIterableToArray(arr) || nonIterableSpread();\n}\n\nmodule.exports = _toConsumableArray;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 84,
@@ -11949,7 +11949,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js",
           "index": 38,
           "index2": 30,
-          "size": 185,
+          "size": 266,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -11993,8 +11993,8 @@
               "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
               "type": "cjs require",
-              "userRequest": "./arrayWithoutHoles",
-              "loc": "1:24-54"
+              "userRequest": "./arrayWithoutHoles.js",
+              "loc": "1:24-57"
             }
           ],
           "usedExports": true,
@@ -12003,7 +12003,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "var arrayLikeToArray = require(\"./arrayLikeToArray\");\n\nfunction _arrayWithoutHoles(arr) {\n  if (Array.isArray(arr)) return arrayLikeToArray(arr);\n}\n\nmodule.exports = _arrayWithoutHoles;"
+          "source": "var arrayLikeToArray = require(\"./arrayLikeToArray.js\");\n\nfunction _arrayWithoutHoles(arr) {\n  if (Array.isArray(arr)) return arrayLikeToArray(arr);\n}\n\nmodule.exports = _arrayWithoutHoles;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 85,
@@ -12011,7 +12011,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/iterableToArray.js",
           "index": 39,
           "index2": 31,
-          "size": 168,
+          "size": 246,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -12055,8 +12055,8 @@
               "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
               "type": "cjs require",
-              "userRequest": "./iterableToArray",
-              "loc": "3:22-50"
+              "userRequest": "./iterableToArray.js",
+              "loc": "3:22-53"
             }
           ],
           "usedExports": true,
@@ -12065,7 +12065,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "function _iterableToArray(iter) {\n  if (typeof Symbol !== \"undefined\" && Symbol.iterator in Object(iter)) return Array.from(iter);\n}\n\nmodule.exports = _iterableToArray;"
+          "source": "function _iterableToArray(iter) {\n  if (typeof Symbol !== \"undefined\" && Symbol.iterator in Object(iter)) return Array.from(iter);\n}\n\nmodule.exports = _iterableToArray;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 86,
@@ -12073,7 +12073,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/nonIterableSpread.js",
           "index": 40,
           "index2": 32,
-          "size": 230,
+          "size": 308,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -12117,8 +12117,8 @@
               "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
               "type": "cjs require",
-              "userRequest": "./nonIterableSpread",
-              "loc": "7:24-54"
+              "userRequest": "./nonIterableSpread.js",
+              "loc": "7:24-57"
             }
           ],
           "usedExports": true,
@@ -12127,7 +12127,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "function _nonIterableSpread() {\n  throw new TypeError(\"Invalid attempt to spread non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\");\n}\n\nmodule.exports = _nonIterableSpread;"
+          "source": "function _nonIterableSpread() {\n  throw new TypeError(\"Invalid attempt to spread non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\");\n}\n\nmodule.exports = _nonIterableSpread;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 87,
@@ -13389,7 +13389,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/defineProperty.js",
           "index": 70,
           "index2": 62,
-          "size": 289,
+          "size": 367,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -13443,7 +13443,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "function _defineProperty(obj, key, value) {\n  if (key in obj) {\n    Object.defineProperty(obj, key, {\n      value: value,\n      enumerable: true,\n      configurable: true,\n      writable: true\n    });\n  } else {\n    obj[key] = value;\n  }\n\n  return obj;\n}\n\nmodule.exports = _defineProperty;"
+          "source": "function _defineProperty(obj, key, value) {\n  if (key in obj) {\n    Object.defineProperty(obj, key, {\n      value: value,\n      enumerable: true,\n      configurable: true,\n      writable: true\n    });\n  } else {\n    obj[key] = value;\n  }\n\n  return obj;\n}\n\nmodule.exports = _defineProperty;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 105,
@@ -14878,7 +14878,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
           "index": 116,
           "index2": 114,
-          "size": 665,
+          "size": 746,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -14927,7 +14927,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 3,
-          "source": "var objectWithoutPropertiesLoose = require(\"./objectWithoutPropertiesLoose\");\n\nfunction _objectWithoutProperties(source, excluded) {\n  if (source == null) return {};\n  var target = objectWithoutPropertiesLoose(source, excluded);\n  var key, i;\n\n  if (Object.getOwnPropertySymbols) {\n    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);\n\n    for (i = 0; i < sourceSymbolKeys.length; i++) {\n      key = sourceSymbolKeys[i];\n      if (excluded.indexOf(key) >= 0) continue;\n      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;\n      target[key] = source[key];\n    }\n  }\n\n  return target;\n}\n\nmodule.exports = _objectWithoutProperties;"
+          "source": "var objectWithoutPropertiesLoose = require(\"./objectWithoutPropertiesLoose.js\");\n\nfunction _objectWithoutProperties(source, excluded) {\n  if (source == null) return {};\n  var target = objectWithoutPropertiesLoose(source, excluded);\n  var key, i;\n\n  if (Object.getOwnPropertySymbols) {\n    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);\n\n    for (i = 0; i < sourceSymbolKeys.length; i++) {\n      key = sourceSymbolKeys[i];\n      if (excluded.indexOf(key) >= 0) continue;\n      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;\n      target[key] = source[key];\n    }\n  }\n\n  return target;\n}\n\nmodule.exports = _objectWithoutProperties;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 130,
@@ -14935,7 +14935,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
           "index": 117,
           "index2": 113,
-          "size": 384,
+          "size": 462,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -14979,8 +14979,8 @@
               "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
               "type": "cjs require",
-              "userRequest": "./objectWithoutPropertiesLoose",
-              "loc": "1:35-76"
+              "userRequest": "./objectWithoutPropertiesLoose.js",
+              "loc": "1:35-79"
             }
           ],
           "usedExports": true,
@@ -14989,7 +14989,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 4,
-          "source": "function _objectWithoutPropertiesLoose(source, excluded) {\n  if (source == null) return {};\n  var target = {};\n  var sourceKeys = Object.keys(source);\n  var key, i;\n\n  for (i = 0; i < sourceKeys.length; i++) {\n    key = sourceKeys[i];\n    if (excluded.indexOf(key) >= 0) continue;\n    target[key] = source[key];\n  }\n\n  return target;\n}\n\nmodule.exports = _objectWithoutPropertiesLoose;"
+          "source": "function _objectWithoutPropertiesLoose(source, excluded) {\n  if (source == null) return {};\n  var target = {};\n  var sourceKeys = Object.keys(source);\n  var key, i;\n\n  for (i = 0; i < sourceKeys.length; i++) {\n    key = sourceKeys[i];\n    if (excluded.indexOf(key) >= 0) continue;\n    target[key] = source[key];\n  }\n\n  return target;\n}\n\nmodule.exports = _objectWithoutPropertiesLoose;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
         },
         {
           "id": 132,
@@ -15808,8 +15808,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
-              "name": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js"
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js",
+              "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js"
             },
             {
               "id": 8,
@@ -15880,8 +15880,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
-              "name": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js"
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js",
+              "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js"
             },
             {
               "id": 8,
@@ -16650,7 +16650,7 @@
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-42"
+          "loc": "1:0-35"
         },
         {
           "moduleId": 24,
@@ -16659,7 +16659,7 @@
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-35"
+          "loc": "1:0-42"
         },
         {
           "moduleId": 24,
@@ -16794,7 +16794,7 @@
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:98-104"
+          "loc": "1:98-106"
         },
         {
           "moduleId": 24,
@@ -16803,7 +16803,7 @@
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:98-106"
+          "loc": "1:98-104"
         },
         {
           "moduleId": 24,
@@ -19438,7 +19438,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/typeof.js",
       "index": 6,
       "index2": 0,
-      "size": 479,
+      "size": 723,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -19730,7 +19730,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 3,
-      "source": "function _typeof(obj) {\n  \"@babel/helpers - typeof\";\n\n  if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") {\n    module.exports = _typeof = function _typeof(obj) {\n      return typeof obj;\n    };\n  } else {\n    module.exports = _typeof = function _typeof(obj) {\n      return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj;\n    };\n  }\n\n  return _typeof(obj);\n}\n\nmodule.exports = _typeof;"
+      "source": "function _typeof(obj) {\n  \"@babel/helpers - typeof\";\n\n  if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") {\n    module.exports = _typeof = function _typeof(obj) {\n      return typeof obj;\n    };\n\n    module.exports[\"default\"] = module.exports, module.exports.__esModule = true;\n  } else {\n    module.exports = _typeof = function _typeof(obj) {\n      return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj;\n    };\n\n    module.exports[\"default\"] = module.exports, module.exports.__esModule = true;\n  }\n\n  return _typeof(obj);\n}\n\nmodule.exports = _typeof;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 3,
@@ -19738,7 +19738,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "index": 9,
       "index2": 4,
-      "size": 147,
+      "size": 225,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -19926,7 +19926,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 2,
-      "source": "function _interopRequireDefault(obj) {\n  return obj && obj.__esModule ? obj : {\n    \"default\": obj\n  };\n}\n\nmodule.exports = _interopRequireDefault;"
+      "source": "function _interopRequireDefault(obj) {\n  return obj && obj.__esModule ? obj : {\n    \"default\": obj\n  };\n}\n\nmodule.exports = _interopRequireDefault;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 4,
@@ -20532,9 +20532,9 @@
       "chunks": [
         4
       ],
-      "issuer": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
+      "issuer": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js",
       "issuerId": null,
-      "issuerName": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
+      "issuerName": "/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js",
       "issuerPath": [
         {
           "id": 65,
@@ -20558,8 +20558,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
-          "name": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js"
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js",
+          "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js"
         }
       ],
       "failed": false,
@@ -20656,7 +20656,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
       "index": 27,
       "index2": 26,
-      "size": 432,
+      "size": 522,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -20759,7 +20759,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 3,
-      "source": "var arrayWithHoles = require(\"./arrayWithHoles\");\n\nvar iterableToArrayLimit = require(\"./iterableToArrayLimit\");\n\nvar unsupportedIterableToArray = require(\"./unsupportedIterableToArray\");\n\nvar nonIterableRest = require(\"./nonIterableRest\");\n\nfunction _slicedToArray(arr, i) {\n  return arrayWithHoles(arr) || iterableToArrayLimit(arr, i) || unsupportedIterableToArray(arr, i) || nonIterableRest();\n}\n\nmodule.exports = _slicedToArray;"
+      "source": "var arrayWithHoles = require(\"./arrayWithHoles.js\");\n\nvar iterableToArrayLimit = require(\"./iterableToArrayLimit.js\");\n\nvar unsupportedIterableToArray = require(\"./unsupportedIterableToArray.js\");\n\nvar nonIterableRest = require(\"./nonIterableRest.js\");\n\nfunction _slicedToArray(arr, i) {\n  return arrayWithHoles(arr) || iterableToArrayLimit(arr, i) || unsupportedIterableToArray(arr, i) || nonIterableRest();\n}\n\nmodule.exports = _slicedToArray;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 10,
@@ -21475,7 +21475,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/extends.js",
       "index": 77,
       "index2": 71,
-      "size": 427,
+      "size": 585,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -21551,7 +21551,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 3,
-      "source": "function _extends() {\n  module.exports = _extends = Object.assign || function (target) {\n    for (var i = 1; i < arguments.length; i++) {\n      var source = arguments[i];\n\n      for (var key in source) {\n        if (Object.prototype.hasOwnProperty.call(source, key)) {\n          target[key] = source[key];\n        }\n      }\n    }\n\n    return target;\n  };\n\n  return _extends.apply(this, arguments);\n}\n\nmodule.exports = _extends;"
+      "source": "function _extends() {\n  module.exports = _extends = Object.assign || function (target) {\n    for (var i = 1; i < arguments.length; i++) {\n      var source = arguments[i];\n\n      for (var key in source) {\n        if (Object.prototype.hasOwnProperty.call(source, key)) {\n          target[key] = source[key];\n        }\n      }\n    }\n\n    return target;\n  };\n\n  module.exports[\"default\"] = module.exports, module.exports.__esModule = true;\n  return _extends.apply(this, arguments);\n}\n\nmodule.exports = _extends;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 18,
@@ -23099,7 +23099,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
       "index": 76,
       "index2": 70,
-      "size": 1191,
+      "size": 1280,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -23161,7 +23161,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 2,
-      "source": "var _typeof = require(\"@babel/runtime/helpers/typeof\");\n\nfunction _getRequireWildcardCache() {\n  if (typeof WeakMap !== \"function\") return null;\n  var cache = new WeakMap();\n\n  _getRequireWildcardCache = function _getRequireWildcardCache() {\n    return cache;\n  };\n\n  return cache;\n}\n\nfunction _interopRequireWildcard(obj) {\n  if (obj && obj.__esModule) {\n    return obj;\n  }\n\n  if (obj === null || _typeof(obj) !== \"object\" && typeof obj !== \"function\") {\n    return {\n      \"default\": obj\n    };\n  }\n\n  var cache = _getRequireWildcardCache();\n\n  if (cache && cache.has(obj)) {\n    return cache.get(obj);\n  }\n\n  var newObj = {};\n  var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;\n\n  for (var key in obj) {\n    if (Object.prototype.hasOwnProperty.call(obj, key)) {\n      var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;\n\n      if (desc && (desc.get || desc.set)) {\n        Object.defineProperty(newObj, key, desc);\n      } else {\n        newObj[key] = obj[key];\n      }\n    }\n  }\n\n  newObj[\"default\"] = obj;\n\n  if (cache) {\n    cache.set(obj, newObj);\n  }\n\n  return newObj;\n}\n\nmodule.exports = _interopRequireWildcard;"
+      "source": "var _typeof = require(\"@babel/runtime/helpers/typeof\")[\"default\"];\n\nfunction _getRequireWildcardCache() {\n  if (typeof WeakMap !== \"function\") return null;\n  var cache = new WeakMap();\n\n  _getRequireWildcardCache = function _getRequireWildcardCache() {\n    return cache;\n  };\n\n  return cache;\n}\n\nfunction _interopRequireWildcard(obj) {\n  if (obj && obj.__esModule) {\n    return obj;\n  }\n\n  if (obj === null || _typeof(obj) !== \"object\" && typeof obj !== \"function\") {\n    return {\n      \"default\": obj\n    };\n  }\n\n  var cache = _getRequireWildcardCache();\n\n  if (cache && cache.has(obj)) {\n    return cache.get(obj);\n  }\n\n  var newObj = {};\n  var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;\n\n  for (var key in obj) {\n    if (Object.prototype.hasOwnProperty.call(obj, key)) {\n      var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;\n\n      if (desc && (desc.get || desc.set)) {\n        Object.defineProperty(newObj, key, desc);\n      } else {\n        newObj[key] = obj[key];\n      }\n    }\n  }\n\n  newObj[\"default\"] = obj;\n\n  if (cache) {\n    cache.set(obj, newObj);\n  }\n\n  return newObj;\n}\n\nmodule.exports = _interopRequireWildcard;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 27,
@@ -23779,7 +23779,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
       "index": 30,
       "index2": 24,
-      "size": 528,
+      "size": 609,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -23823,8 +23823,8 @@
           "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
           "type": "cjs require",
-          "userRequest": "./unsupportedIterableToArray",
-          "loc": "5:33-72"
+          "userRequest": "./unsupportedIterableToArray.js",
+          "loc": "5:33-75"
         },
         {
           "moduleId": 83,
@@ -23832,8 +23832,8 @@
           "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
           "type": "cjs require",
-          "userRequest": "./unsupportedIterableToArray",
-          "loc": "5:33-72"
+          "userRequest": "./unsupportedIterableToArray.js",
+          "loc": "5:33-75"
         }
       ],
       "usedExports": true,
@@ -23842,7 +23842,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "var arrayLikeToArray = require(\"./arrayLikeToArray\");\n\nfunction _unsupportedIterableToArray(o, minLen) {\n  if (!o) return;\n  if (typeof o === \"string\") return arrayLikeToArray(o, minLen);\n  var n = Object.prototype.toString.call(o).slice(8, -1);\n  if (n === \"Object\" && o.constructor) n = o.constructor.name;\n  if (n === \"Map\" || n === \"Set\") return Array.from(o);\n  if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return arrayLikeToArray(o, minLen);\n}\n\nmodule.exports = _unsupportedIterableToArray;"
+      "source": "var arrayLikeToArray = require(\"./arrayLikeToArray.js\");\n\nfunction _unsupportedIterableToArray(o, minLen) {\n  if (!o) return;\n  if (typeof o === \"string\") return arrayLikeToArray(o, minLen);\n  var n = Object.prototype.toString.call(o).slice(8, -1);\n  if (n === \"Object\" && o.constructor) n = o.constructor.name;\n  if (n === \"Map\" || n === \"Set\") return Array.from(o);\n  if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return arrayLikeToArray(o, minLen);\n}\n\nmodule.exports = _unsupportedIterableToArray;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 35,
@@ -23850,7 +23850,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
       "index": 31,
       "index2": 23,
-      "size": 234,
+      "size": 312,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -23899,8 +23899,8 @@
           "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
           "type": "cjs require",
-          "userRequest": "./arrayLikeToArray",
-          "loc": "1:23-52"
+          "userRequest": "./arrayLikeToArray.js",
+          "loc": "1:23-55"
         },
         {
           "moduleId": 84,
@@ -23908,8 +23908,8 @@
           "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js",
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js",
           "type": "cjs require",
-          "userRequest": "./arrayLikeToArray",
-          "loc": "1:23-52"
+          "userRequest": "./arrayLikeToArray.js",
+          "loc": "1:23-55"
         }
       ],
       "usedExports": true,
@@ -23918,7 +23918,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 5,
-      "source": "function _arrayLikeToArray(arr, len) {\n  if (len == null || len > arr.length) len = arr.length;\n\n  for (var i = 0, arr2 = new Array(len); i < len; i++) {\n    arr2[i] = arr[i];\n  }\n\n  return arr2;\n}\n\nmodule.exports = _arrayLikeToArray;"
+      "source": "function _arrayLikeToArray(arr, len) {\n  if (len == null || len > arr.length) len = arr.length;\n\n  for (var i = 0, arr2 = new Array(len); i < len; i++) {\n    arr2[i] = arr[i];\n  }\n\n  return arr2;\n}\n\nmodule.exports = _arrayLikeToArray;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 36,
@@ -24063,7 +24063,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/asyncToGenerator.js",
       "index": 36,
       "index2": 29,
-      "size": 809,
+      "size": 887,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -24121,7 +24121,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 3,
-      "source": "function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {\n  try {\n    var info = gen[key](arg);\n    var value = info.value;\n  } catch (error) {\n    reject(error);\n    return;\n  }\n\n  if (info.done) {\n    resolve(value);\n  } else {\n    Promise.resolve(value).then(_next, _throw);\n  }\n}\n\nfunction _asyncToGenerator(fn) {\n  return function () {\n    var self = this,\n        args = arguments;\n    return new Promise(function (resolve, reject) {\n      var gen = fn.apply(self, args);\n\n      function _next(value) {\n        asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n      }\n\n      function _throw(err) {\n        asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n      }\n\n      _next(undefined);\n    });\n  };\n}\n\nmodule.exports = _asyncToGenerator;"
+      "source": "function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {\n  try {\n    var info = gen[key](arg);\n    var value = info.value;\n  } catch (error) {\n    reject(error);\n    return;\n  }\n\n  if (info.done) {\n    resolve(value);\n  } else {\n    Promise.resolve(value).then(_next, _throw);\n  }\n}\n\nfunction _asyncToGenerator(fn) {\n  return function () {\n    var self = this,\n        args = arguments;\n    return new Promise(function (resolve, reject) {\n      var gen = fn.apply(self, args);\n\n      function _next(value) {\n        asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n      }\n\n      function _throw(err) {\n        asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n      }\n\n      _next(undefined);\n    });\n  };\n}\n\nmodule.exports = _asyncToGenerator;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 39,
@@ -25536,8 +25536,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
-          "name": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js"
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js",
+          "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js"
         },
         {
           "id": 8,
@@ -26570,7 +26570,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "index": 20,
       "index2": 14,
-      "size": 196,
+      "size": 274,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -26634,7 +26634,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 6,
-      "source": "function _classCallCheck(instance, Constructor) {\n  if (!(instance instanceof Constructor)) {\n    throw new TypeError(\"Cannot call a class as a function\");\n  }\n}\n\nmodule.exports = _classCallCheck;"
+      "source": "function _classCallCheck(instance, Constructor) {\n  if (!(instance instanceof Constructor)) {\n    throw new TypeError(\"Cannot call a class as a function\");\n  }\n}\n\nmodule.exports = _classCallCheck;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 74,
@@ -26642,7 +26642,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/createClass.js",
       "index": 21,
       "index2": 15,
-      "size": 596,
+      "size": 674,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -26706,7 +26706,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 6,
-      "source": "function _defineProperties(target, props) {\n  for (var i = 0; i < props.length; i++) {\n    var descriptor = props[i];\n    descriptor.enumerable = descriptor.enumerable || false;\n    descriptor.configurable = true;\n    if (\"value\" in descriptor) descriptor.writable = true;\n    Object.defineProperty(target, descriptor.key, descriptor);\n  }\n}\n\nfunction _createClass(Constructor, protoProps, staticProps) {\n  if (protoProps) _defineProperties(Constructor.prototype, protoProps);\n  if (staticProps) _defineProperties(Constructor, staticProps);\n  return Constructor;\n}\n\nmodule.exports = _createClass;"
+      "source": "function _defineProperties(target, props) {\n  for (var i = 0; i < props.length; i++) {\n    var descriptor = props[i];\n    descriptor.enumerable = descriptor.enumerable || false;\n    descriptor.configurable = true;\n    if (\"value\" in descriptor) descriptor.writable = true;\n    Object.defineProperty(target, descriptor.key, descriptor);\n  }\n}\n\nfunction _createClass(Constructor, protoProps, staticProps) {\n  if (protoProps) _defineProperties(Constructor.prototype, protoProps);\n  if (staticProps) _defineProperties(Constructor, staticProps);\n  return Constructor;\n}\n\nmodule.exports = _createClass;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 75,
@@ -26714,7 +26714,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/inherits.js",
       "index": 22,
       "index2": 17,
-      "size": 505,
+      "size": 586,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -26778,7 +26778,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 6,
-      "source": "var setPrototypeOf = require(\"./setPrototypeOf\");\n\nfunction _inherits(subClass, superClass) {\n  if (typeof superClass !== \"function\" && superClass !== null) {\n    throw new TypeError(\"Super expression must either be null or a function\");\n  }\n\n  subClass.prototype = Object.create(superClass && superClass.prototype, {\n    constructor: {\n      value: subClass,\n      writable: true,\n      configurable: true\n    }\n  });\n  if (superClass) setPrototypeOf(subClass, superClass);\n}\n\nmodule.exports = _inherits;"
+      "source": "var setPrototypeOf = require(\"./setPrototypeOf.js\");\n\nfunction _inherits(subClass, superClass) {\n  if (typeof superClass !== \"function\" && superClass !== null) {\n    throw new TypeError(\"Super expression must either be null or a function\");\n  }\n\n  subClass.prototype = Object.create(superClass && superClass.prototype, {\n    constructor: {\n      value: subClass,\n      writable: true,\n      configurable: true\n    }\n  });\n  if (superClass) setPrototypeOf(subClass, superClass);\n}\n\nmodule.exports = _inherits;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 76,
@@ -26786,7 +26786,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/setPrototypeOf.js",
       "index": 23,
       "index2": 16,
-      "size": 237,
+      "size": 395,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -26845,8 +26845,8 @@
           "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/inherits.js",
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/inherits.js",
           "type": "cjs require",
-          "userRequest": "./setPrototypeOf",
-          "loc": "1:21-48"
+          "userRequest": "./setPrototypeOf.js",
+          "loc": "1:21-51"
         }
       ],
       "usedExports": true,
@@ -26855,7 +26855,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 7,
-      "source": "function _setPrototypeOf(o, p) {\n  module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {\n    o.__proto__ = p;\n    return o;\n  };\n\n  return _setPrototypeOf(o, p);\n}\n\nmodule.exports = _setPrototypeOf;"
+      "source": "function _setPrototypeOf(o, p) {\n  module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {\n    o.__proto__ = p;\n    return o;\n  };\n\n  module.exports[\"default\"] = module.exports, module.exports.__esModule = true;\n  return _setPrototypeOf(o, p);\n}\n\nmodule.exports = _setPrototypeOf;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 77,
@@ -26863,7 +26863,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "index": 24,
       "index2": 19,
-      "size": 355,
+      "size": 447,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -26927,7 +26927,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 6,
-      "source": "var _typeof = require(\"@babel/runtime/helpers/typeof\");\n\nvar assertThisInitialized = require(\"./assertThisInitialized\");\n\nfunction _possibleConstructorReturn(self, call) {\n  if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) {\n    return call;\n  }\n\n  return assertThisInitialized(self);\n}\n\nmodule.exports = _possibleConstructorReturn;"
+      "source": "var _typeof = require(\"@babel/runtime/helpers/typeof\")[\"default\"];\n\nvar assertThisInitialized = require(\"./assertThisInitialized.js\");\n\nfunction _possibleConstructorReturn(self, call) {\n  if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) {\n    return call;\n  }\n\n  return assertThisInitialized(self);\n}\n\nmodule.exports = _possibleConstructorReturn;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 78,
@@ -26935,7 +26935,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/assertThisInitialized.js",
       "index": 25,
       "index2": 18,
-      "size": 219,
+      "size": 297,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -26994,8 +26994,8 @@
           "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
           "type": "cjs require",
-          "userRequest": "./assertThisInitialized",
-          "loc": "3:28-62"
+          "userRequest": "./assertThisInitialized.js",
+          "loc": "3:28-65"
         }
       ],
       "usedExports": true,
@@ -27004,7 +27004,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 7,
-      "source": "function _assertThisInitialized(self) {\n  if (self === void 0) {\n    throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");\n  }\n\n  return self;\n}\n\nmodule.exports = _assertThisInitialized;"
+      "source": "function _assertThisInitialized(self) {\n  if (self === void 0) {\n    throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");\n  }\n\n  return self;\n}\n\nmodule.exports = _assertThisInitialized;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 79,
@@ -27012,7 +27012,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "index": 26,
       "index2": 20,
-      "size": 267,
+      "size": 425,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -27076,7 +27076,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 6,
-      "source": "function _getPrototypeOf(o) {\n  module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {\n    return o.__proto__ || Object.getPrototypeOf(o);\n  };\n  return _getPrototypeOf(o);\n}\n\nmodule.exports = _getPrototypeOf;"
+      "source": "function _getPrototypeOf(o) {\n  module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {\n    return o.__proto__ || Object.getPrototypeOf(o);\n  };\n  module.exports[\"default\"] = module.exports, module.exports.__esModule = true;\n  return _getPrototypeOf(o);\n}\n\nmodule.exports = _getPrototypeOf;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 80,
@@ -27084,7 +27084,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/arrayWithHoles.js",
       "index": 28,
       "index2": 21,
-      "size": 106,
+      "size": 184,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -27128,8 +27128,8 @@
           "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
           "type": "cjs require",
-          "userRequest": "./arrayWithHoles",
-          "loc": "1:21-48"
+          "userRequest": "./arrayWithHoles.js",
+          "loc": "1:21-51"
         }
       ],
       "usedExports": true,
@@ -27138,7 +27138,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "function _arrayWithHoles(arr) {\n  if (Array.isArray(arr)) return arr;\n}\n\nmodule.exports = _arrayWithHoles;"
+      "source": "function _arrayWithHoles(arr) {\n  if (Array.isArray(arr)) return arr;\n}\n\nmodule.exports = _arrayWithHoles;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 81,
@@ -27146,7 +27146,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
       "index": 29,
       "index2": 22,
-      "size": 605,
+      "size": 683,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -27190,8 +27190,8 @@
           "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
           "type": "cjs require",
-          "userRequest": "./iterableToArrayLimit",
-          "loc": "3:27-60"
+          "userRequest": "./iterableToArrayLimit.js",
+          "loc": "3:27-63"
         }
       ],
       "usedExports": true,
@@ -27200,7 +27200,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "function _iterableToArrayLimit(arr, i) {\n  if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return;\n  var _arr = [];\n  var _n = true;\n  var _d = false;\n  var _e = undefined;\n\n  try {\n    for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {\n      _arr.push(_s.value);\n\n      if (i && _arr.length === i) break;\n    }\n  } catch (err) {\n    _d = true;\n    _e = err;\n  } finally {\n    try {\n      if (!_n && _i[\"return\"] != null) _i[\"return\"]();\n    } finally {\n      if (_d) throw _e;\n    }\n  }\n\n  return _arr;\n}\n\nmodule.exports = _iterableToArrayLimit;"
+      "source": "function _iterableToArrayLimit(arr, i) {\n  if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return;\n  var _arr = [];\n  var _n = true;\n  var _d = false;\n  var _e = undefined;\n\n  try {\n    for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {\n      _arr.push(_s.value);\n\n      if (i && _arr.length === i) break;\n    }\n  } catch (err) {\n    _d = true;\n    _e = err;\n  } finally {\n    try {\n      if (!_n && _i[\"return\"] != null) _i[\"return\"]();\n    } finally {\n      if (_d) throw _e;\n    }\n  }\n\n  return _arr;\n}\n\nmodule.exports = _iterableToArrayLimit;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 82,
@@ -27208,7 +27208,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/nonIterableRest.js",
       "index": 32,
       "index2": 25,
-      "size": 231,
+      "size": 309,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -27252,8 +27252,8 @@
           "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/slicedToArray.js",
           "type": "cjs require",
-          "userRequest": "./nonIterableRest",
-          "loc": "7:22-50"
+          "userRequest": "./nonIterableRest.js",
+          "loc": "7:22-53"
         }
       ],
       "usedExports": true,
@@ -27262,7 +27262,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "function _nonIterableRest() {\n  throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\");\n}\n\nmodule.exports = _nonIterableRest;"
+      "source": "function _nonIterableRest() {\n  throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\");\n}\n\nmodule.exports = _nonIterableRest;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 83,
@@ -27270,7 +27270,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
       "index": 37,
       "index2": 33,
-      "size": 431,
+      "size": 521,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -27319,7 +27319,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 3,
-      "source": "var arrayWithoutHoles = require(\"./arrayWithoutHoles\");\n\nvar iterableToArray = require(\"./iterableToArray\");\n\nvar unsupportedIterableToArray = require(\"./unsupportedIterableToArray\");\n\nvar nonIterableSpread = require(\"./nonIterableSpread\");\n\nfunction _toConsumableArray(arr) {\n  return arrayWithoutHoles(arr) || iterableToArray(arr) || unsupportedIterableToArray(arr) || nonIterableSpread();\n}\n\nmodule.exports = _toConsumableArray;"
+      "source": "var arrayWithoutHoles = require(\"./arrayWithoutHoles.js\");\n\nvar iterableToArray = require(\"./iterableToArray.js\");\n\nvar unsupportedIterableToArray = require(\"./unsupportedIterableToArray.js\");\n\nvar nonIterableSpread = require(\"./nonIterableSpread.js\");\n\nfunction _toConsumableArray(arr) {\n  return arrayWithoutHoles(arr) || iterableToArray(arr) || unsupportedIterableToArray(arr) || nonIterableSpread();\n}\n\nmodule.exports = _toConsumableArray;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 84,
@@ -27327,7 +27327,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js",
       "index": 38,
       "index2": 30,
-      "size": 185,
+      "size": 266,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -27371,8 +27371,8 @@
           "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
           "type": "cjs require",
-          "userRequest": "./arrayWithoutHoles",
-          "loc": "1:24-54"
+          "userRequest": "./arrayWithoutHoles.js",
+          "loc": "1:24-57"
         }
       ],
       "usedExports": true,
@@ -27381,7 +27381,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "var arrayLikeToArray = require(\"./arrayLikeToArray\");\n\nfunction _arrayWithoutHoles(arr) {\n  if (Array.isArray(arr)) return arrayLikeToArray(arr);\n}\n\nmodule.exports = _arrayWithoutHoles;"
+      "source": "var arrayLikeToArray = require(\"./arrayLikeToArray.js\");\n\nfunction _arrayWithoutHoles(arr) {\n  if (Array.isArray(arr)) return arrayLikeToArray(arr);\n}\n\nmodule.exports = _arrayWithoutHoles;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 85,
@@ -27389,7 +27389,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/iterableToArray.js",
       "index": 39,
       "index2": 31,
-      "size": 168,
+      "size": 246,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -27433,8 +27433,8 @@
           "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
           "type": "cjs require",
-          "userRequest": "./iterableToArray",
-          "loc": "3:22-50"
+          "userRequest": "./iterableToArray.js",
+          "loc": "3:22-53"
         }
       ],
       "usedExports": true,
@@ -27443,7 +27443,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "function _iterableToArray(iter) {\n  if (typeof Symbol !== \"undefined\" && Symbol.iterator in Object(iter)) return Array.from(iter);\n}\n\nmodule.exports = _iterableToArray;"
+      "source": "function _iterableToArray(iter) {\n  if (typeof Symbol !== \"undefined\" && Symbol.iterator in Object(iter)) return Array.from(iter);\n}\n\nmodule.exports = _iterableToArray;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 86,
@@ -27451,7 +27451,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/nonIterableSpread.js",
       "index": 40,
       "index2": 32,
-      "size": 230,
+      "size": 308,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -27495,8 +27495,8 @@
           "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/toConsumableArray.js",
           "type": "cjs require",
-          "userRequest": "./nonIterableSpread",
-          "loc": "7:24-54"
+          "userRequest": "./nonIterableSpread.js",
+          "loc": "7:24-57"
         }
       ],
       "usedExports": true,
@@ -27505,7 +27505,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "function _nonIterableSpread() {\n  throw new TypeError(\"Invalid attempt to spread non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\");\n}\n\nmodule.exports = _nonIterableSpread;"
+      "source": "function _nonIterableSpread() {\n  throw new TypeError(\"Invalid attempt to spread non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\");\n}\n\nmodule.exports = _nonIterableSpread;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 87,
@@ -28767,7 +28767,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/defineProperty.js",
       "index": 70,
       "index2": 62,
-      "size": 289,
+      "size": 367,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -28821,7 +28821,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "function _defineProperty(obj, key, value) {\n  if (key in obj) {\n    Object.defineProperty(obj, key, {\n      value: value,\n      enumerable: true,\n      configurable: true,\n      writable: true\n    });\n  } else {\n    obj[key] = value;\n  }\n\n  return obj;\n}\n\nmodule.exports = _defineProperty;"
+      "source": "function _defineProperty(obj, key, value) {\n  if (key in obj) {\n    Object.defineProperty(obj, key, {\n      value: value,\n      enumerable: true,\n      configurable: true,\n      writable: true\n    });\n  } else {\n    obj[key] = value;\n  }\n\n  return obj;\n}\n\nmodule.exports = _defineProperty;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 105,
@@ -30381,7 +30381,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "index": 116,
       "index2": 114,
-      "size": 665,
+      "size": 746,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -30430,7 +30430,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 3,
-      "source": "var objectWithoutPropertiesLoose = require(\"./objectWithoutPropertiesLoose\");\n\nfunction _objectWithoutProperties(source, excluded) {\n  if (source == null) return {};\n  var target = objectWithoutPropertiesLoose(source, excluded);\n  var key, i;\n\n  if (Object.getOwnPropertySymbols) {\n    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);\n\n    for (i = 0; i < sourceSymbolKeys.length; i++) {\n      key = sourceSymbolKeys[i];\n      if (excluded.indexOf(key) >= 0) continue;\n      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;\n      target[key] = source[key];\n    }\n  }\n\n  return target;\n}\n\nmodule.exports = _objectWithoutProperties;"
+      "source": "var objectWithoutPropertiesLoose = require(\"./objectWithoutPropertiesLoose.js\");\n\nfunction _objectWithoutProperties(source, excluded) {\n  if (source == null) return {};\n  var target = objectWithoutPropertiesLoose(source, excluded);\n  var key, i;\n\n  if (Object.getOwnPropertySymbols) {\n    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);\n\n    for (i = 0; i < sourceSymbolKeys.length; i++) {\n      key = sourceSymbolKeys[i];\n      if (excluded.indexOf(key) >= 0) continue;\n      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;\n      target[key] = source[key];\n    }\n  }\n\n  return target;\n}\n\nmodule.exports = _objectWithoutProperties;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 130,
@@ -30438,7 +30438,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
       "index": 117,
       "index2": 113,
-      "size": 384,
+      "size": 462,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -30482,8 +30482,8 @@
           "module": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
           "type": "cjs require",
-          "userRequest": "./objectWithoutPropertiesLoose",
-          "loc": "1:35-76"
+          "userRequest": "./objectWithoutPropertiesLoose.js",
+          "loc": "1:35-79"
         }
       ],
       "usedExports": true,
@@ -30492,7 +30492,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 4,
-      "source": "function _objectWithoutPropertiesLoose(source, excluded) {\n  if (source == null) return {};\n  var target = {};\n  var sourceKeys = Object.keys(source);\n  var key, i;\n\n  for (i = 0; i < sourceKeys.length; i++) {\n    key = sourceKeys[i];\n    if (excluded.indexOf(key) >= 0) continue;\n    target[key] = source[key];\n  }\n\n  return target;\n}\n\nmodule.exports = _objectWithoutPropertiesLoose;"
+      "source": "function _objectWithoutPropertiesLoose(source, excluded) {\n  if (source == null) return {};\n  var target = {};\n  var sourceKeys = Object.keys(source);\n  var key, i;\n\n  for (i = 0; i < sourceKeys.length; i++) {\n    key = sourceKeys[i];\n    if (excluded.indexOf(key) >= 0) continue;\n    target[key] = source[key];\n  }\n\n  return target;\n}\n\nmodule.exports = _objectWithoutPropertiesLoose;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;"
     },
     {
       "id": 131,
@@ -31499,8 +31499,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
-          "name": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js"
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js",
+          "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js"
         },
         {
           "id": 8,
@@ -31571,8 +31571,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
-          "name": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js"
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js",
+          "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Landing/index.js"
         },
         {
           "id": 8,
