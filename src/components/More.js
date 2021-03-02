@@ -16,7 +16,6 @@ function More() {
         </Fragment>
         
     )
-
 }
 
 export default More
