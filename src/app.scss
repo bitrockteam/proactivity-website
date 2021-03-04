@@ -131,7 +131,7 @@ ul {
   }
   >p {
     font-size:14px;
-    line-height:48px;
+    padding:12px 0;
     color:white;
   }
   >button {
@@ -139,7 +139,10 @@ ul {
     font-size:16px;
     line-height:32px;
   }
-  >svg {cursor:pointer;}
+  >svg {
+    cursor:pointer;
+    min-width:15px;
+  }
 }
 
 .mindset-image {
