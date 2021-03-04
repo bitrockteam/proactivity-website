@@ -24,7 +24,7 @@ function Footer() {
 
             </div>
             <div className = "footer-copyright">
-                <p>ProActivity©Copyright {new Date().getFullYear()}.  All rights reserved.  VAT 11501860966</p>
+                <p>ProActivity©Copyright {new Date().getFullYear()}.  All rights reserved.  VAT 11501860966 - Original artwork by Maurizio Monti</p>
             </div>
         </div>
     )

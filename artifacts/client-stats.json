@@ -2,18 +2,18 @@
   "errors": [],
   "warnings": [
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  templates/vendors~main.2ee9376e.js (290 KiB)",
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (293 KiB). This can impact web performance.\nEntrypoints:\n  main (317 KiB)\n      styles.b430a61d.css\n      templates/styles.cc834d5d.js\n      templates/vendors~main.2ee9376e.js\n      main.cdec7a44.js\n"
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (293 KiB). This can impact web performance.\nEntrypoints:\n  main (317 KiB)\n      styles.b430a61d.css\n      templates/styles.cc834d5d.js\n      templates/vendors~main.2ee9376e.js\n      main.2a1e3115.js\n"
   ],
   "version": "4.46.0",
-  "hash": "e8b44056b3ce8695dbeb",
-  "time": 2185,
-  "builtAt": 1614871578507,
+  "hash": "51b1d2614ab09fa9655f",
+  "time": 2175,
+  "builtAt": 1614873170142,
   "publicPath": "/",
   "outputPath": "/Users/mariaburlando/Desktop/proactivity/dist",
   "assetsByChunkName": {
     "__react_static_root__/src/pages/404": "templates/__react_static_root__/src/pages/404.fb1b41f0.js",
     "__react_static_root__/src/pages/index": "templates/__react_static_root__/src/pages/index.719b7e91.js",
-    "main": "main.cdec7a44.js",
+    "main": "main.2a1e3115.js",
     "styles": [
       "styles.b430a61d.css",
       "templates/styles.cc834d5d.js"
@@ -22,8 +22,8 @@
   },
   "assets": [
     {
-      "name": "main.cdec7a44.js",
-      "size": 20641,
+      "name": "main.2a1e3115.js",
+      "size": 20678,
       "chunks": [
         2
       ],
@@ -119,7 +119,7 @@
         "styles.b430a61d.css",
         "templates/styles.cc834d5d.js",
         "templates/vendors~main.2ee9376e.js",
-        "main.cdec7a44.js"
+        "main.2a1e3115.js"
       ],
       "children": {},
       "childAssets": {},
@@ -137,7 +137,7 @@
         "styles.b430a61d.css",
         "templates/styles.cc834d5d.js",
         "templates/vendors~main.2ee9376e.js",
-        "main.cdec7a44.js"
+        "main.2a1e3115.js"
       ],
       "children": {},
       "childAssets": {},
@@ -378,14 +378,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 23748,
+      "size": 23785,
       "names": [
         "main"
       ],
       "files": [
-        "main.cdec7a44.js"
+        "main.2a1e3115.js"
       ],
-      "hash": "74a3fd5d29821339785f",
+      "hash": "78da6c39f5b1dc9a33ac",
       "siblings": [
         3,
         4
@@ -403,7 +403,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
           "index": 124,
           "index2": 162,
-          "size": 20100,
+          "size": 20137,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -810,7 +810,7 @@
               "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js",
               "index": 157,
               "index2": 155,
-              "size": 3392,
+              "size": 3429,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -873,7 +873,7 @@
               ],
               "optimizationBailout": [],
               "depth": 4,
-              "source": "import React from'react';import'./styles.scss';import Fade from'react-reveal/Fade';function Footer(){return/*#__PURE__*/React.createElement(\"div\",{className:\"footer-container\"},/*#__PURE__*/React.createElement(\"div\",{className:\"footer-content\"},/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"img\",{src:\"./logo-white.png\"}),/*#__PURE__*/React.createElement(\"p\",null,/*#__PURE__*/React.createElement(\"b\",null,\"ProActivity \"),\"combines professional competences and expertise in the development of enterprise-level software solutions.\")),/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"h4\",null,\"Corporate\"),/*#__PURE__*/React.createElement(\"a\",{target:\"__blank\",href:\"https://www.linkedin.com/company/proactivitysrl/jobs\"},\"Careers\"),/*#__PURE__*/React.createElement(\"a\",{target:\"__blank\",href:\"https://fortitudegroup.it/\"},\"Fortitude Group\"),/*#__PURE__*/React.createElement(\"a\",{target:\"__blank\",href:\"https://www.iubenda.com/privacy-policy/66744923\"},\"Privacy Policy\"),/*#__PURE__*/React.createElement(\"h4\",null,\"Follow us\"),/*#__PURE__*/React.createElement(\"a\",{target:\"__blank\",href:\"https://www.linkedin.com/company/proactivitysrl/\"},/*#__PURE__*/React.createElement(\"svg\",{height:\"20px\",viewBox:\"-8 0 511 512\",width:\"20px\",xmlns:\"http://www.w3.org/2000/svg\"},/*#__PURE__*/React.createElement(\"path\",{d:\"m111.898438 160.664062h-96.398438c-8.285156 0-15 6.71875-15 15v321.335938c0 8.285156 6.714844 15 15 15h96.398438c8.285156 0 15-6.714844 15-15v-321.335938c0-8.28125-6.714844-15-15-15zm-15 321.335938h-66.398438v-291.335938h66.398438zm0 0\",fill:\"white\",stroke:\"white\"}),/*#__PURE__*/React.createElement(\"path\",{d:\"m63.703125 0c-34.851563 0-63.203125 28.351562-63.203125 63.195312 0 34.851563 28.351562 63.199219 63.203125 63.199219 34.847656 0 63.195313-28.351562 63.195313-63.199219 0-34.84375-28.347657-63.195312-63.195313-63.195312zm0 96.394531c-18.308594 0-33.203125-14.890625-33.203125-33.199219 0-18.304687 14.894531-33.195312 33.203125-33.195312 18.304687 0 33.195313 14.890625 33.195313 33.195312 0 18.308594-14.890626 33.199219-33.195313 33.199219zm0 0\",fill:\"white\",stroke:\"white\"}),/*#__PURE__*/React.createElement(\"path\",{d:\"m352.910156 158.542969c-22.800781 0-45.273437 5.496093-65.398437 15.777343-.683594-7.652343-7.109375-13.65625-14.941407-13.65625h-96.40625c-8.28125 0-15 6.71875-15 15v321.335938c0 8.285156 6.71875 15 15 15h96.40625c8.285157 0 15-6.714844 15-15v-176.734375c0-22.734375 18.5-41.230469 41.234376-41.230469 22.734374 0 41.226562 18.496094 41.226562 41.230469v176.734375c0 8.285156 6.71875 15 15 15h96.402344c8.285156 0 15-6.714844 15-15v-194.933594c0-79.140625-64.382813-143.523437-143.523438-143.523437zm113.523438 323.457031h-66.398438v-161.734375c0-39.277344-31.953125-71.230469-71.226562-71.230469-39.28125 0-71.238282 31.953125-71.238282 71.230469v161.734375h-66.402343v-291.335938h66.402343v11.082032c0 5.769531 3.308594 11.027344 8.511719 13.523437 5.199219 2.496094 11.371094 1.785157 15.875-1.820312 20.3125-16.292969 44.851563-24.90625 70.953125-24.90625 62.597656 0 113.523438 50.925781 113.523438 113.523437zm0 0\",fill:\"white\",stroke:\"white\"}))))),/*#__PURE__*/React.createElement(\"div\",{className:\"footer-copyright\"},/*#__PURE__*/React.createElement(\"p\",null,\"ProActivity\\xA9Copyright \",new Date().getFullYear(),\".  All rights reserved.  VAT 11501860966\")));}export default Footer;"
+              "source": "import React from'react';import'./styles.scss';import Fade from'react-reveal/Fade';function Footer(){return/*#__PURE__*/React.createElement(\"div\",{className:\"footer-container\"},/*#__PURE__*/React.createElement(\"div\",{className:\"footer-content\"},/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"img\",{src:\"./logo-white.png\"}),/*#__PURE__*/React.createElement(\"p\",null,/*#__PURE__*/React.createElement(\"b\",null,\"ProActivity \"),\"combines professional competences and expertise in the development of enterprise-level software solutions.\")),/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"h4\",null,\"Corporate\"),/*#__PURE__*/React.createElement(\"a\",{target:\"__blank\",href:\"https://www.linkedin.com/company/proactivitysrl/jobs\"},\"Careers\"),/*#__PURE__*/React.createElement(\"a\",{target:\"__blank\",href:\"https://fortitudegroup.it/\"},\"Fortitude Group\"),/*#__PURE__*/React.createElement(\"a\",{target:\"__blank\",href:\"https://www.iubenda.com/privacy-policy/66744923\"},\"Privacy Policy\"),/*#__PURE__*/React.createElement(\"h4\",null,\"Follow us\"),/*#__PURE__*/React.createElement(\"a\",{target:\"__blank\",href:\"https://www.linkedin.com/company/proactivitysrl/\"},/*#__PURE__*/React.createElement(\"svg\",{height:\"20px\",viewBox:\"-8 0 511 512\",width:\"20px\",xmlns:\"http://www.w3.org/2000/svg\"},/*#__PURE__*/React.createElement(\"path\",{d:\"m111.898438 160.664062h-96.398438c-8.285156 0-15 6.71875-15 15v321.335938c0 8.285156 6.714844 15 15 15h96.398438c8.285156 0 15-6.714844 15-15v-321.335938c0-8.28125-6.714844-15-15-15zm-15 321.335938h-66.398438v-291.335938h66.398438zm0 0\",fill:\"white\",stroke:\"white\"}),/*#__PURE__*/React.createElement(\"path\",{d:\"m63.703125 0c-34.851563 0-63.203125 28.351562-63.203125 63.195312 0 34.851563 28.351562 63.199219 63.203125 63.199219 34.847656 0 63.195313-28.351562 63.195313-63.199219 0-34.84375-28.347657-63.195312-63.195313-63.195312zm0 96.394531c-18.308594 0-33.203125-14.890625-33.203125-33.199219 0-18.304687 14.894531-33.195312 33.203125-33.195312 18.304687 0 33.195313 14.890625 33.195313 33.195312 0 18.308594-14.890626 33.199219-33.195313 33.199219zm0 0\",fill:\"white\",stroke:\"white\"}),/*#__PURE__*/React.createElement(\"path\",{d:\"m352.910156 158.542969c-22.800781 0-45.273437 5.496093-65.398437 15.777343-.683594-7.652343-7.109375-13.65625-14.941407-13.65625h-96.40625c-8.28125 0-15 6.71875-15 15v321.335938c0 8.285156 6.71875 15 15 15h96.40625c8.285157 0 15-6.714844 15-15v-176.734375c0-22.734375 18.5-41.230469 41.234376-41.230469 22.734374 0 41.226562 18.496094 41.226562 41.230469v176.734375c0 8.285156 6.71875 15 15 15h96.402344c8.285156 0 15-6.714844 15-15v-194.933594c0-79.140625-64.382813-143.523437-143.523438-143.523437zm113.523438 323.457031h-66.398438v-161.734375c0-39.277344-31.953125-71.230469-71.226562-71.230469-39.28125 0-71.238282 31.953125-71.238282 71.230469v161.734375h-66.402343v-291.335938h66.402343v11.082032c0 5.769531 3.308594 11.027344 8.511719 13.523437 5.199219 2.496094 11.371094 1.785157 15.875-1.820312 20.3125-16.292969 44.851563-24.90625 70.953125-24.90625 62.597656 0 113.523438 50.925781 113.523438 113.523437zm0 0\",fill:\"white\",stroke:\"white\"}))))),/*#__PURE__*/React.createElement(\"div\",{className:\"footer-copyright\"},/*#__PURE__*/React.createElement(\"p\",null,\"ProActivity\\xA9Copyright \",new Date().getFullYear(),\".  All rights reserved.  VAT 11501860966 - Original artwork by Maurizio Monti\")));}export default Footer;"
             },
             {
               "id": null,
@@ -2433,25 +2433,25 @@
               "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
+              "loc": "1:0-25"
+            },
+            {
+              "moduleId": 24,
+              "moduleIdentifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/App.js 0f77fc228c59a6abdc82c5f77bae7a80",
+              "module": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
+              "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-25"
+            },
+            {
+              "moduleId": 24,
+              "moduleIdentifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/App.js 0f77fc228c59a6abdc82c5f77bae7a80",
+              "module": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
+              "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
               "loc": "1:0-42"
-            },
-            {
-              "moduleId": 24,
-              "moduleIdentifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/App.js 0f77fc228c59a6abdc82c5f77bae7a80",
-              "module": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
-              "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-25"
-            },
-            {
-              "moduleId": 24,
-              "moduleIdentifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/App.js 0f77fc228c59a6abdc82c5f77bae7a80",
-              "module": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
-              "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-25"
             },
             {
               "moduleId": 24,
@@ -5744,9 +5744,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -6209,9 +6209,9 @@
           "chunks": [
             4
           ],
-          "issuer": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "issuerId": 119,
-          "issuerName": "../lib/bootstrapTemplates.js",
+          "issuer": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "issuerId": 66,
+          "issuerName": "../lib/bootstrapPlugins.js",
           "issuerPath": [
             {
               "id": 65,
@@ -6219,9 +6219,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             }
           ],
           "failed": false,
@@ -6324,9 +6324,9 @@
           "chunks": [
             4
           ],
-          "issuer": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js",
+          "issuer": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
           "issuerId": null,
-          "issuerName": "/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js",
+          "issuerName": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
           "issuerPath": [
             {
               "id": 65,
@@ -6350,8 +6350,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js",
-              "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js"
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
+              "name": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js"
             }
           ],
           "failed": false,
@@ -6466,9 +6466,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -6577,9 +6577,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -7091,9 +7091,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -8682,9 +8682,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -8753,9 +8753,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -8829,9 +8829,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -8895,9 +8895,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -8966,9 +8966,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9032,9 +9032,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9098,9 +9098,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9174,9 +9174,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9255,9 +9255,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9331,9 +9331,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9478,9 +9478,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9559,9 +9559,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9645,9 +9645,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9721,9 +9721,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9797,9 +9797,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -10421,8 +10421,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js",
-              "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js"
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
+              "name": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js"
             },
             {
               "id": 8,
@@ -11760,9 +11760,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -11822,9 +11822,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -11884,9 +11884,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -11946,9 +11946,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -12003,9 +12003,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -12065,9 +12065,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -12127,9 +12127,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -12189,9 +12189,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -12251,9 +12251,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -12318,9 +12318,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -12390,9 +12390,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -12462,9 +12462,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -12539,9 +12539,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -12611,9 +12611,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -12688,9 +12688,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -12770,9 +12770,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -12847,9 +12847,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -12924,9 +12924,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -13006,9 +13006,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -13088,9 +13088,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -13165,9 +13165,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -13242,9 +13242,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -13309,9 +13309,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -13376,9 +13376,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -13443,9 +13443,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -13505,9 +13505,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -13570,9 +13570,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -15844,8 +15844,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js",
-              "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js"
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
+              "name": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js"
             },
             {
               "id": 8,
@@ -15916,8 +15916,8 @@
             },
             {
               "id": null,
-              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js",
-              "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js"
+              "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
+              "name": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js"
             },
             {
               "id": 8,
@@ -16713,25 +16713,25 @@
           "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
+          "loc": "1:0-25"
+        },
+        {
+          "moduleId": 24,
+          "moduleIdentifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/App.js 0f77fc228c59a6abdc82c5f77bae7a80",
+          "module": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
+          "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-25"
+        },
+        {
+          "moduleId": 24,
+          "moduleIdentifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/App.js 0f77fc228c59a6abdc82c5f77bae7a80",
+          "module": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
+          "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
           "loc": "1:0-42"
-        },
-        {
-          "moduleId": 24,
-          "moduleIdentifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/App.js 0f77fc228c59a6abdc82c5f77bae7a80",
-          "module": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
-          "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-25"
-        },
-        {
-          "moduleId": 24,
-          "moduleIdentifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/App.js 0f77fc228c59a6abdc82c5f77bae7a80",
-          "module": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
-          "moduleName": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-25"
         },
         {
           "moduleId": 24,
@@ -20024,9 +20024,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -20489,9 +20489,9 @@
       "chunks": [
         4
       ],
-      "issuer": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-      "issuerId": 119,
-      "issuerName": "../lib/bootstrapTemplates.js",
+      "issuer": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+      "issuerId": 66,
+      "issuerName": "../lib/bootstrapPlugins.js",
       "issuerPath": [
         {
           "id": 65,
@@ -20499,9 +20499,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         }
       ],
       "failed": false,
@@ -20604,9 +20604,9 @@
       "chunks": [
         4
       ],
-      "issuer": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js",
+      "issuer": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
       "issuerId": null,
-      "issuerName": "/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js",
+      "issuerName": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
       "issuerPath": [
         {
           "id": 65,
@@ -20630,8 +20630,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js",
-          "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js"
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
+          "name": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js"
         }
       ],
       "failed": false,
@@ -20746,9 +20746,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -20857,9 +20857,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -21371,9 +21371,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -22174,7 +22174,7 @@
       "name": "/Users/mariaburlando/Desktop/proactivity/src/App.js + 10 modules",
       "index": 124,
       "index2": 162,
-      "size": 20100,
+      "size": 20137,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -22581,7 +22581,7 @@
           "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js",
           "index": 157,
           "index2": 155,
-          "size": 3392,
+          "size": 3429,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -22644,7 +22644,7 @@
           ],
           "optimizationBailout": [],
           "depth": 4,
-          "source": "import React from'react';import'./styles.scss';import Fade from'react-reveal/Fade';function Footer(){return/*#__PURE__*/React.createElement(\"div\",{className:\"footer-container\"},/*#__PURE__*/React.createElement(\"div\",{className:\"footer-content\"},/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"img\",{src:\"./logo-white.png\"}),/*#__PURE__*/React.createElement(\"p\",null,/*#__PURE__*/React.createElement(\"b\",null,\"ProActivity \"),\"combines professional competences and expertise in the development of enterprise-level software solutions.\")),/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"h4\",null,\"Corporate\"),/*#__PURE__*/React.createElement(\"a\",{target:\"__blank\",href:\"https://www.linkedin.com/company/proactivitysrl/jobs\"},\"Careers\"),/*#__PURE__*/React.createElement(\"a\",{target:\"__blank\",href:\"https://fortitudegroup.it/\"},\"Fortitude Group\"),/*#__PURE__*/React.createElement(\"a\",{target:\"__blank\",href:\"https://www.iubenda.com/privacy-policy/66744923\"},\"Privacy Policy\"),/*#__PURE__*/React.createElement(\"h4\",null,\"Follow us\"),/*#__PURE__*/React.createElement(\"a\",{target:\"__blank\",href:\"https://www.linkedin.com/company/proactivitysrl/\"},/*#__PURE__*/React.createElement(\"svg\",{height:\"20px\",viewBox:\"-8 0 511 512\",width:\"20px\",xmlns:\"http://www.w3.org/2000/svg\"},/*#__PURE__*/React.createElement(\"path\",{d:\"m111.898438 160.664062h-96.398438c-8.285156 0-15 6.71875-15 15v321.335938c0 8.285156 6.714844 15 15 15h96.398438c8.285156 0 15-6.714844 15-15v-321.335938c0-8.28125-6.714844-15-15-15zm-15 321.335938h-66.398438v-291.335938h66.398438zm0 0\",fill:\"white\",stroke:\"white\"}),/*#__PURE__*/React.createElement(\"path\",{d:\"m63.703125 0c-34.851563 0-63.203125 28.351562-63.203125 63.195312 0 34.851563 28.351562 63.199219 63.203125 63.199219 34.847656 0 63.195313-28.351562 63.195313-63.199219 0-34.84375-28.347657-63.195312-63.195313-63.195312zm0 96.394531c-18.308594 0-33.203125-14.890625-33.203125-33.199219 0-18.304687 14.894531-33.195312 33.203125-33.195312 18.304687 0 33.195313 14.890625 33.195313 33.195312 0 18.308594-14.890626 33.199219-33.195313 33.199219zm0 0\",fill:\"white\",stroke:\"white\"}),/*#__PURE__*/React.createElement(\"path\",{d:\"m352.910156 158.542969c-22.800781 0-45.273437 5.496093-65.398437 15.777343-.683594-7.652343-7.109375-13.65625-14.941407-13.65625h-96.40625c-8.28125 0-15 6.71875-15 15v321.335938c0 8.285156 6.71875 15 15 15h96.40625c8.285157 0 15-6.714844 15-15v-176.734375c0-22.734375 18.5-41.230469 41.234376-41.230469 22.734374 0 41.226562 18.496094 41.226562 41.230469v176.734375c0 8.285156 6.71875 15 15 15h96.402344c8.285156 0 15-6.714844 15-15v-194.933594c0-79.140625-64.382813-143.523437-143.523438-143.523437zm113.523438 323.457031h-66.398438v-161.734375c0-39.277344-31.953125-71.230469-71.226562-71.230469-39.28125 0-71.238282 31.953125-71.238282 71.230469v161.734375h-66.402343v-291.335938h66.402343v11.082032c0 5.769531 3.308594 11.027344 8.511719 13.523437 5.199219 2.496094 11.371094 1.785157 15.875-1.820312 20.3125-16.292969 44.851563-24.90625 70.953125-24.90625 62.597656 0 113.523438 50.925781 113.523438 113.523437zm0 0\",fill:\"white\",stroke:\"white\"}))))),/*#__PURE__*/React.createElement(\"div\",{className:\"footer-copyright\"},/*#__PURE__*/React.createElement(\"p\",null,\"ProActivity\\xA9Copyright \",new Date().getFullYear(),\".  All rights reserved.  VAT 11501860966\")));}export default Footer;"
+          "source": "import React from'react';import'./styles.scss';import Fade from'react-reveal/Fade';function Footer(){return/*#__PURE__*/React.createElement(\"div\",{className:\"footer-container\"},/*#__PURE__*/React.createElement(\"div\",{className:\"footer-content\"},/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"img\",{src:\"./logo-white.png\"}),/*#__PURE__*/React.createElement(\"p\",null,/*#__PURE__*/React.createElement(\"b\",null,\"ProActivity \"),\"combines professional competences and expertise in the development of enterprise-level software solutions.\")),/*#__PURE__*/React.createElement(\"div\",null,/*#__PURE__*/React.createElement(\"h4\",null,\"Corporate\"),/*#__PURE__*/React.createElement(\"a\",{target:\"__blank\",href:\"https://www.linkedin.com/company/proactivitysrl/jobs\"},\"Careers\"),/*#__PURE__*/React.createElement(\"a\",{target:\"__blank\",href:\"https://fortitudegroup.it/\"},\"Fortitude Group\"),/*#__PURE__*/React.createElement(\"a\",{target:\"__blank\",href:\"https://www.iubenda.com/privacy-policy/66744923\"},\"Privacy Policy\"),/*#__PURE__*/React.createElement(\"h4\",null,\"Follow us\"),/*#__PURE__*/React.createElement(\"a\",{target:\"__blank\",href:\"https://www.linkedin.com/company/proactivitysrl/\"},/*#__PURE__*/React.createElement(\"svg\",{height:\"20px\",viewBox:\"-8 0 511 512\",width:\"20px\",xmlns:\"http://www.w3.org/2000/svg\"},/*#__PURE__*/React.createElement(\"path\",{d:\"m111.898438 160.664062h-96.398438c-8.285156 0-15 6.71875-15 15v321.335938c0 8.285156 6.714844 15 15 15h96.398438c8.285156 0 15-6.714844 15-15v-321.335938c0-8.28125-6.714844-15-15-15zm-15 321.335938h-66.398438v-291.335938h66.398438zm0 0\",fill:\"white\",stroke:\"white\"}),/*#__PURE__*/React.createElement(\"path\",{d:\"m63.703125 0c-34.851563 0-63.203125 28.351562-63.203125 63.195312 0 34.851563 28.351562 63.199219 63.203125 63.199219 34.847656 0 63.195313-28.351562 63.195313-63.199219 0-34.84375-28.347657-63.195312-63.195313-63.195312zm0 96.394531c-18.308594 0-33.203125-14.890625-33.203125-33.199219 0-18.304687 14.894531-33.195312 33.203125-33.195312 18.304687 0 33.195313 14.890625 33.195313 33.195312 0 18.308594-14.890626 33.199219-33.195313 33.199219zm0 0\",fill:\"white\",stroke:\"white\"}),/*#__PURE__*/React.createElement(\"path\",{d:\"m352.910156 158.542969c-22.800781 0-45.273437 5.496093-65.398437 15.777343-.683594-7.652343-7.109375-13.65625-14.941407-13.65625h-96.40625c-8.28125 0-15 6.71875-15 15v321.335938c0 8.285156 6.71875 15 15 15h96.40625c8.285157 0 15-6.714844 15-15v-176.734375c0-22.734375 18.5-41.230469 41.234376-41.230469 22.734374 0 41.226562 18.496094 41.226562 41.230469v176.734375c0 8.285156 6.71875 15 15 15h96.402344c8.285156 0 15-6.714844 15-15v-194.933594c0-79.140625-64.382813-143.523437-143.523438-143.523437zm113.523438 323.457031h-66.398438v-161.734375c0-39.277344-31.953125-71.230469-71.226562-71.230469-39.28125 0-71.238282 31.953125-71.238282 71.230469v161.734375h-66.402343v-291.335938h66.402343v11.082032c0 5.769531 3.308594 11.027344 8.511719 13.523437 5.199219 2.496094 11.371094 1.785157 15.875-1.820312 20.3125-16.292969 44.851563-24.90625 70.953125-24.90625 62.597656 0 113.523438 50.925781 113.523438 113.523437zm0 0\",fill:\"white\",stroke:\"white\"}))))),/*#__PURE__*/React.createElement(\"div\",{className:\"footer-copyright\"},/*#__PURE__*/React.createElement(\"p\",null,\"ProActivity\\xA9Copyright \",new Date().getFullYear(),\".  All rights reserved.  VAT 11501860966 - Original artwork by Maurizio Monti\")));}export default Footer;"
         },
         {
           "id": null,
@@ -23869,9 +23869,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -23940,9 +23940,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -24016,9 +24016,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -24082,9 +24082,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -24153,9 +24153,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -24219,9 +24219,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -24285,9 +24285,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -24361,9 +24361,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -24442,9 +24442,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -24518,9 +24518,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -24665,9 +24665,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -24746,9 +24746,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -24832,9 +24832,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -24908,9 +24908,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -24984,9 +24984,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -25608,8 +25608,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js",
-          "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js"
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
+          "name": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js"
         },
         {
           "id": 8,
@@ -27174,9 +27174,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -27236,9 +27236,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -27298,9 +27298,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -27360,9 +27360,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -27417,9 +27417,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -27479,9 +27479,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -27541,9 +27541,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -27603,9 +27603,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -27665,9 +27665,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -27732,9 +27732,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -27804,9 +27804,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -27876,9 +27876,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -27953,9 +27953,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28025,9 +28025,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28102,9 +28102,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28184,9 +28184,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28261,9 +28261,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28338,9 +28338,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28420,9 +28420,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28502,9 +28502,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28579,9 +28579,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28656,9 +28656,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28723,9 +28723,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28790,9 +28790,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28857,9 +28857,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28919,9 +28919,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -28984,9 +28984,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -31571,8 +31571,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js",
-          "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js"
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
+          "name": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js"
         },
         {
           "id": 8,
@@ -31643,8 +31643,8 @@
         },
         {
           "id": null,
-          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js",
-          "name": "/Users/mariaburlando/Desktop/proactivity/src/components/Footer/index.js"
+          "identifier": "/Users/mariaburlando/Desktop/proactivity/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/mariaburlando/Desktop/proactivity/node_modules/react-hot-loader/webpack.js!/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js",
+          "name": "/Users/mariaburlando/Desktop/proactivity/src/components/SectionContainer/index.js"
         },
         {
           "id": 8,

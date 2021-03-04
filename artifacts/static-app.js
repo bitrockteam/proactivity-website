@@ -942,7 +942,7 @@ function Footer() {
     stroke: "white"
   }))))), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "footer-copyright"
-  }, /*#__PURE__*/external_react_default.a.createElement("p", null, "ProActivity\xA9Copyright ", new Date().getFullYear(), ".  All rights reserved.  VAT 11501860966")));
+  }, /*#__PURE__*/external_react_default.a.createElement("p", null, "ProActivity\xA9Copyright ", new Date().getFullYear(), ".  All rights reserved.  VAT 11501860966 - Original artwork by Maurizio Monti")));
 }
 
 /* harmony default export */ var components_Footer = (Footer);
