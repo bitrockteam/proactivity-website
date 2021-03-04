@@ -919,7 +919,7 @@ function Footer() {
     href: "https://fortitudegroup.it/"
   }, "Fortitude Group"), /*#__PURE__*/external_react_default.a.createElement("a", {
     target: "__blank",
-    href: "#"
+    href: "https://www.iubenda.com/privacy-policy/66744923"
   }, "Privacy Policy"), /*#__PURE__*/external_react_default.a.createElement("h4", null, "Follow us"), /*#__PURE__*/external_react_default.a.createElement("a", {
     target: "__blank",
     href: "https://www.linkedin.com/company/proactivitysrl/"
