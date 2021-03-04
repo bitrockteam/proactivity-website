@@ -35,8 +35,9 @@ function App() {
           <Contacts/>
         </SectionContainer>
       </div>
-      <CookieNotice/>
       <Footer/>
+      <CookieNotice/>
+
     </Root>
   )
 }
