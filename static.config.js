@@ -13,9 +13,9 @@ const gTag = `
 
 const cookieTag = `
   var _iub = _iub || [];
-  _iub.csConfiguration =
-  {"consentOnContinuedBrowsing":false,"whitelabel":false,"lang":"en","siteId":2178685,"countryDetection":true,"cookiePolicyId":66744923,
-  "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-bottom-center" }};
+_iub.csConfiguration =
+{"countryDetection":true,"consentOnContinuedBrowsing":false,"whitelabel":false,"lang":"en","siteId":2178685,"cookiePolicyId":66744923,
+"banner":{ "position":"bottom" }};
 `
 
 export default {
