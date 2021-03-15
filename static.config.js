@@ -11,6 +11,13 @@ const gTag = `
 		gtag('config', 'G-E1NCEQ3168');
 `;
 
+const cookieTag = `
+  var _iub = _iub || [];
+  _iub.csConfiguration =
+  {"consentOnContinuedBrowsing":false,"whitelabel":false,"lang":"en","siteId":2178685,"countryDetection":true,"cookiePolicyId":66744923,
+  "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-bottom-center" }};
+`
+
 export default {
 
   getSiteProps: async () => ({
@@ -34,6 +41,9 @@ export default {
               <link rel="icon" href="/icon.png"/>
               <script async src="https://www.googletagmanager.com/gtag/js?id=G-E1NCEQ3168"></script>
               <script dangerouslySetInnerHTML={{__html: gTag}}/>
+
+              <script type="text/javascript" dangerouslySetInnerHTML={{__html: cookieTag}} />
+              <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
 
             </Head>
             <Body>
