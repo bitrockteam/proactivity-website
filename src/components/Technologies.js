@@ -25,10 +25,11 @@ function Technologies() {
               <p>Angular</p>
               <p>Angular.js</p>
               <p>Vue.js</p>
+              <p>React</p>
             </div>
           </div>
         </Fragment>
-        
+
     )
 
 }

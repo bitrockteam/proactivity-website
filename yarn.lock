@@ -7600,6 +7600,11 @@ react-side-effect@^2.1.0:
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.1.tgz#66c5701c3e7560ab4822a4ee2742dee215d72eb3"
   integrity sha512-2FoTQzRNTncBVtnzxFOk2mCpcfxQpenBMbk5kSVBg5UcPqV9fRbgY2zhb7GTWWOlpFmAxhClBDlIq8Rsubz1yQ==
 
+react-static-plugin-google-analytics@0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/react-static-plugin-google-analytics/-/react-static-plugin-google-analytics-0.0.0.tgz#882b73a18575cceeea116b4fdd5db098c2a0c84b"
+  integrity sha512-wjr9HMAjjxr9UYJJzT2J9dTlmb4KETMraz8fPRn+d4RRR6/FhJLVMb5RYjP/gRw1eSyfgS/7dOwx/RUHanzjug==
+
 react-static-plugin-reach-router@^7.5.1:
   version "7.5.3"
   resolved "https://registry.yarnpkg.com/react-static-plugin-reach-router/-/react-static-plugin-reach-router-7.5.3.tgz#419b433317046efd62128a40350b8488e75941fe"

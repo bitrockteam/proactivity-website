@@ -11,55 +11,48 @@
 
 .footer-content {
     max-width:1300px;
+    color:white;
     margin:0 auto;
     padding:24px;
     display:flex;
     flex-direction:row;
+    justify-content: space-between;
+    align-items: flex-start;
 
-    >div {
-        &:first-of-type {
-            width:60%;
-            >p {
-                
-                max-width:315px;
-                padding-left:84px;
-            }
-            img {
-                width:255px;
-                padding-bottom:24px;
-            }
+    > div {
+        width: 100%;
+
+        > p {
+            max-width:315px;
+            padding-left:84px;
         }
-        &:last-of-type {
-            width:40%;
+
+        h4 {
+            margin:0;
+            padding:0;
+            font-size: 18px;
+            line-height: 39px;
+            font-weight:600;
+        }
+
+        a {
+            font-size: 14px;
+            line-height: 23px;
             color:white;
-            padding-left:0;
-
-            h4 {
-                margin:0;
-                padding:0;
-                font-size: 18px;
-                line-height: 39px;
-                font-weight:600;
-            }
-
-            a {
-                font-size: 14px;
-                line-height: 23px;
-                color:white;
-                &:hover {
-                    text-decoration: underline;
-                    text-decoration-color: white;;
-                }
+            &:hover {
+                text-decoration: underline;
+                text-decoration-color: white;;
             }
         }
     }
+
 }
 
 .footer-copyright {
     background-color:#616161;
     padding:12px 24px 12px 0;
     width:100%;
-    
+
     > p {
         margin:0 auto;
         max-width:1300px;
@@ -69,17 +62,15 @@
 }
 
 
-@media(max-width:600px) {
+@media(max-width:700px) {
     .footer-content {
         flex-direction:column;
-        >div {
-            &:first-of-type {
-                width:100%;
+        > div {
+            &:not(:first-of-type) {
+                padding-left: 84px;
+                margin-bottom: 20px;
             }
-            &:last-of-type {
-                width:100%;
-                padding-left:84px;
-            }
+
         }
     }
 }
