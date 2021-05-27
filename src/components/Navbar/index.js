@@ -14,13 +14,14 @@ function NavBar() {
                 <Link offset={-93} to="how-we-work"> <p>How we work</p> </Link>
                 <Link offset={-93} to="mindset"> <p>Mindset</p> </Link>
                 <Link offset={-93} to="technologies"> <p>Technologies</p> </Link>
+                <Link offset={-93} to="join-us"> <p>Join Our Team</p> </Link>
                 <Link offset={-93} to="contacts"> <p>Contacts</p> </Link>
             </div>
             <svg onClick={
-                () => mobileNavigation.current.style.top==="93px" ? 
+                () => mobileNavigation.current.style.top==="93px" ?
                 mobileNavigation.current.style.top="-30%":
                 mobileNavigation.current.style.top="93px"
-                } 
+                }
                 width="35px" height="35px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 384.97 384.97"  >
                 <g>
                     <g>
@@ -38,6 +39,7 @@ function NavBar() {
             <Link offset={-93} to="how-we-work" onClick={() => mobileNavigation.current.style.top="-30%"}> <p>How we work</p> </Link>
             <Link offset={-93} to="mindset" onClick={() => mobileNavigation.current.style.top="-30%"}> <p>Mindset</p> </Link>
             <Link offset={-93} to="technologies" onClick={() => mobileNavigation.current.style.top="-30%"}> <p>Technologies</p> </Link>
+            <Link offset={-93} to="join-us" onClick={() => mobileNavigation.current.style.top="-30%"}> <p>Join Our Team</p> </Link>
             <Link offset={-93} to="contacts" onClick={() => mobileNavigation.current.style.top="-30%"}> <p>Contacts</p> </Link>
         </div>
         </div>

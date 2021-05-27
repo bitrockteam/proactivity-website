@@ -9,6 +9,7 @@ import More from './components/More'
 import Mindset from './components/Mindset'
 import HowWeWork from './components/HowWeWork'
 import Technologies from './components/Technologies'
+import JoinUs from './components/JoinUs'
 import Contacts from './components/Contacts'
 import CookieNotice from './components/CookieNotice'
 
@@ -30,6 +31,9 @@ function App() {
         </SectionContainer>
         <SectionContainer name={"technologies"} sectionTitle={"Technologies"}>
           <Technologies/>
+        </SectionContainer>
+        <SectionContainer name={"join-us"} sectionTitle={"Join Our Team"}>
+          <JoinUs/>
         </SectionContainer>
         <SectionContainer name={"contacts"} sectionTitle={"Contacts"}>
           <Contacts/>
