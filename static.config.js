@@ -14,8 +14,26 @@ const gTag = `
 const cookieTag = `
   var _iub = _iub || [];
 _iub.csConfiguration =
-{"countryDetection":true,"consentOnContinuedBrowsing":false,"whitelabel":false,"lang":"en","siteId":2178685,"cookiePolicyId":66744923,
-"banner":{ "position":"bottom" }};
+{
+  "consentOnContinuedBrowsing": false,
+  "floatingPreferencesButtonDisplay": "bottom-left",
+  "invalidateConsentWithoutLog": true,
+  "lang": "en",
+  "perPurposeConsent": true,
+  "siteId": 2178685,
+  "whitelabel": false,
+  "cookiePolicyId": 66744923,
+  "banner": {
+    "acceptButtonDisplay": true,
+    "closeButtonRejects": true,
+    "customizeButtonDisplay": true,
+    "explicitWithdrawal": true,
+    "listPurposes": true,
+    "logo": "https://proactivity.it/logo.png",
+    "position": "bottom",
+    "rejectButtonDisplay": true
+  }
+};
 `
 
 export default {
