@@ -16,7 +16,7 @@ function Contacts() {
               <br/>
               <div>
                 <p><b>Milano</b></p>
-                <p>Via Pietro Borsieri, 41</p>
+                <p>Via Tortona, 4</p>
                 <p>20159 Milano (MI) - Italy</p>
                 <p>Phone:+39 0237920598</p>
                 <a href="mailto:info@proactivity.it"><p>info@proactivity.it</p></a>
