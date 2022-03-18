@@ -40,7 +40,7 @@ function Footer() {
                 </div>
             </div>
             <div className = "footer-copyright">
-                <p>ProActivity - A Fortitude Group Company © Copyright {new Date().getFullYear()}.  All rights reserved.  VAT 11501860966 - Original artwork by Maurizio Monti</p>
+                <p>ProActivity - A <a href="https://fortitudegroup.it/" target="_blank">Fortitude Group</a> Company © Copyright {new Date().getFullYear()}.  All rights reserved.  VAT 11501860966 - Original artwork by Maurizio Monti</p>
             </div>
         </div>
     )
