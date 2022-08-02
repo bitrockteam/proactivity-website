@@ -1,0 +1,124 @@
+.bg-grey{
+    background-color: #bbc6cc;
+}
+
+
+.academy-picture{
+    background-image: url("/academy-landing.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+
+    .content{
+       .landing-content{
+            width: 100%;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+            padding: 117px 0 24px 0;
+            color: white;
+        h1{
+            font-size: 62px;
+            margin-bottom: 0px;
+        }
+        h4{
+            margin-top: 60px;
+        }
+        p{
+            color: white;
+        }
+        a{
+            text-decoration: underline;
+            color: white;
+        }
+       }
+    }
+}
+
+
+
+.space-bottom{
+    padding: 0 0 40px 0;
+}
+
+.space-top{
+    padding: 40px 0 0 0;
+}
+
+.description-academy{
+    padding: 60px 0;
+    h2{
+        font-size: 42px;
+        margin: 0 0 10px 0;
+        line-height: 3rem;
+        font-weight: 500;
+        color: #f9faf9;
+    }
+    p{
+        margin-top: 20px;
+        font-size: 38px;
+        margin: 0;
+        line-height: 3rem;
+        font-weight: 500;
+        color: #4d6676;
+    }
+}
+
+.preprequisiti{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    align-items: center;
+
+    p{
+        margin: 0;
+    }
+        li{
+        font-weight: 500;
+    }
+
+    .loghi-container{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        align-items: center;
+    }
+}
+
+
+
+@media(min-width:900px) and (max-width:1100px) {
+    .content {
+        text-align: center;
+        h1{
+            font-size: 48px;
+        }
+    }
+
+    .description-academy{
+        h2{
+            font-size: 28px;
+        }
+    }
+}
+
+
+@media(max-width:899px) {
+    .content {
+        text-align: center;
+    }
+
+    .description-academy{
+        h2{
+            font-size: 28px;
+        }
+        p{
+            font-size: 24px;
+        }
+    }
+
+    .preprequisiti{
+        flex-direction: column;
+    }
+}

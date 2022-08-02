@@ -1,0 +1,35 @@
+.academy-banner{
+    background-color: #4d6475;
+    height: 200px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+
+    .academy-text{
+        border-bottom: 1px solid white;
+        p{
+            color: #bec9d0;
+            margin-bottom: 5px;
+        }
+    }
+    .candidatura{
+        margin-top: 20px;
+        color: #fff;
+        a{
+            color: #fff;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+@media(max-width:899px) {
+    .academy-banner{
+        height: auto;
+        padding: 20px 0;
+    }
+    .application-text{
+        display: flex;
+        flex-direction: column;
+    }
+}
