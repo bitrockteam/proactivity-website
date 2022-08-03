@@ -1,0 +1,22 @@
+.promo-background{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-image: url("/academy-landing.png");
+
+    .promo-text{
+         width: 60%;
+         color: #fff;
+
+        p {
+            color: #fff;
+        }
+        
+        button{
+            background-color: #fff;
+            color: black;
+            padding: 0px 40px;
+            font-size: 16px;
+        }
+    }
+}

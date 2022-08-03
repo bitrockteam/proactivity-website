@@ -38,12 +38,12 @@ function NavBar() {
             </svg>
         </nav>
         <div  className="mobile-navigation" ref={mobileNavigation}>
-                <a  href='/#how-we-work'><p>How we work</p></a>
-                <a  href='/#mindset'><p>Mindset</p></a>
-                <a  href='/#technologies'><p>Technologies</p></a>
-                <a  href='/#join-us'><p>Join Our Team</p></a>
-                <a  href='/#contacts'><p>Contacts</p></a>
-                <a  href='/talent-academy'><p>Talent Academy</p></a>
+                <a onClick={() => mobileNavigation.current.style.top="-36%"}  href='/#how-we-work'><p>How we work</p></a>
+                <a onClick={() => mobileNavigation.current.style.top="-36%"}  href='/#mindset'><p>Mindset</p></a>
+                <a onClick={() => mobileNavigation.current.style.top="-36%"}  href='/#technologies'><p>Technologies</p></a>
+                <a onClick={() => mobileNavigation.current.style.top="-36%"}  href='/#join-us'><p>Join Our Team</p></a>
+                <a onClick={() => mobileNavigation.current.style.top="-36%"}  href='/#contacts'><p>Contacts</p></a>
+                <a onClick={() => mobileNavigation.current.style.top="-36%"}  href='/talent-academy'><p>Talent Academy</p></a>
         </div>
         </div>
     )

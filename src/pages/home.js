@@ -8,6 +8,7 @@ import SectionContainer from '../components/SectionContainer'
 import Contacts from '../components/Contacts'
 import Landing from '../components/Landing'
 import AcademyBanner from '../components/Talent-Academy/AcademyBanner'
+import AcademyCta from '../components/Talent-Academy/AcademyCta'
 
 
 function Home() {
@@ -34,6 +35,9 @@ function Home() {
                   <Technologies/>
                 </SectionContainer>
               </div>
+            </div>
+            <AcademyCta />
+            <div className="content">
               <div id="join-us" style={{ marginTop: '-80px', paddingTop: '80px' }}>
                 <SectionContainer name={"join-us"} sectionTitle={"Join Our Team"}>
                   <JoinUs/>
@@ -45,9 +49,8 @@ function Home() {
                 </SectionContainer>
               
               </div>
-              </div>
+            </div>
           </>
-          
     )
 }
 

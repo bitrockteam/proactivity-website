@@ -16,9 +16,9 @@ nav {
     top:0;
     left:0;
     justify-content:flex-start;
-> img {
+> a {
     padding: 0 24px;
-    height:57px;
+    height: auto
 }
 
 svg {display:none;}
@@ -86,7 +86,8 @@ svg {display:none;}
         }
 
         img {
-            height:40px;
+            height:60px;
+            margin-right: 10px;
         }
     }
 

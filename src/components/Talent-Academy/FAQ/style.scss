@@ -1,0 +1,31 @@
+.preprequisiti{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    align-items: center;
+
+    p{
+        margin: 0;
+    }
+        li{
+        font-weight: 500;
+    }
+
+    .loghi-container{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        align-items: center;
+    }
+}
+
+@media(max-width:899px) {
+    .content {
+        text-align: center;
+    }
+
+    .preprequisiti{
+        flex-direction: column;
+    }
+}
