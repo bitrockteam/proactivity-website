@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer-container">
             <div className="footer-content">
                 <div>
-                    <img src="./logo-white.png" alt="ProActivity" style={{
+                    <img src="./Logo_Proactivity_Bianco.png" alt="ProActivity" style={{
                         width: '255px',
                         paddingBottom: '24px'
                     }} />

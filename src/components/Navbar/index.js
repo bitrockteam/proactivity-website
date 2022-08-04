@@ -1,6 +1,7 @@
-import React, {Fragment, useRef} from 'react';
+import React, {Fragment, useEffect, useRef} from 'react';
 import './styles.scss'
 import { Link } from "react-scroll";
+import { Link as Linkto } from "@reach/router"
 
 function NavBar() {
 
@@ -9,17 +10,18 @@ function NavBar() {
     return(
         <div className="nav-container">
         <nav>
-            <img  src="./logo.png"/>
+            <Linkto to=""><img alt='logo' width={400}  src="./Logo_Proactivity.png"/></Linkto>
             <div className = "links-container">
-                <Link offset={-93} to="how-we-work"> <p>How we work</p> </Link>
-                <Link offset={-93} to="mindset"> <p>Mindset</p> </Link>
-                <Link offset={-93} to="technologies"> <p>Technologies</p> </Link>
-                <Link offset={-93} to="join-us"> <p>Join Our Team</p> </Link>
-                <Link offset={-93} to="contacts"> <p>Contacts</p> </Link>
+                <a  href='/#how-we-work'><p>How we work</p></a>
+                <a  href='/#mindset'><p>Mindset</p></a>
+                <a  href='/#technologies'><p>Technologies</p></a>
+                <a  href='/#join-us'><p>Join Our Team</p></a>
+                <a  href='/#contacts'><p>Contacts</p></a>
+                <Linkto to="talent-academy"> <p>Talent Academy</p></Linkto>
             </div>
             <svg onClick={
                 () => mobileNavigation.current.style.top==="93px" ?
-                mobileNavigation.current.style.top="-30%":
+                mobileNavigation.current.style.top="-36%":
                 mobileNavigation.current.style.top="93px"
                 }
                 width="35px" height="35px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 384.97 384.97"  >
@@ -36,11 +38,12 @@ function NavBar() {
             </svg>
         </nav>
         <div  className="mobile-navigation" ref={mobileNavigation}>
-            <Link offset={-93} to="how-we-work" onClick={() => mobileNavigation.current.style.top="-30%"}> <p>How we work</p> </Link>
-            <Link offset={-93} to="mindset" onClick={() => mobileNavigation.current.style.top="-30%"}> <p>Mindset</p> </Link>
-            <Link offset={-93} to="technologies" onClick={() => mobileNavigation.current.style.top="-30%"}> <p>Technologies</p> </Link>
-            <Link offset={-93} to="join-us" onClick={() => mobileNavigation.current.style.top="-30%"}> <p>Join Our Team</p> </Link>
-            <Link offset={-93} to="contacts" onClick={() => mobileNavigation.current.style.top="-30%"}> <p>Contacts</p> </Link>
+                <a onClick={() => mobileNavigation.current.style.top="-36%"}  href='/#how-we-work'><p>How we work</p></a>
+                <a onClick={() => mobileNavigation.current.style.top="-36%"}  href='/#mindset'><p>Mindset</p></a>
+                <a onClick={() => mobileNavigation.current.style.top="-36%"}  href='/#technologies'><p>Technologies</p></a>
+                <a onClick={() => mobileNavigation.current.style.top="-36%"}  href='/#join-us'><p>Join Our Team</p></a>
+                <a onClick={() => mobileNavigation.current.style.top="-36%"}  href='/#contacts'><p>Contacts</p></a>
+                <a onClick={() => mobileNavigation.current.style.top="-36%"}  href='/talent-academy'><p>Talent Academy</p></a>
         </div>
         </div>
     )
