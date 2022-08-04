@@ -21,7 +21,7 @@ function TalentAcademy() {
             <AcademyDescription />
             <div className="space-top">
                 <div className="content">
-                    <SectionContainer className="space-top" name={"academy"} sectionTitle={"Il nostro nuovo percorso formativo per I giovani talenti del mondo IT"}>
+                    <SectionContainer className="space-top" name={"academy"} sectionTitle={"Il nostro nuovo percorso formativo per i giovani talenti del mondo IT"}>
                             <Fade>
                                 <p delay={200} style={{ textTransform: "uppercase"}}><b>Ti appassionano le tecnologie e i linguaggi di programmazione? <br/> Unisciti alla ProActivity Talent Academy e diventa Back-end Developer con noi!</b></p> 
                                 <p>Mission della nostra Talent Academy è quella di erogare formazione teorica e professionale per chiunque voglia padroneggiare principi e tecnologie in ambito Back-end. <br/></p>
