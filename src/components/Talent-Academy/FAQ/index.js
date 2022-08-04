@@ -13,7 +13,7 @@ function FAQ(){
             </Fade>
             <Fade delay={400}>
             <p style={{ textTransform: "uppercase"}}><b>Quali requisiti devo avere per poter accedere all’Academy?</b></p> 
-            <p>E’ necessario possedere i seguenti requisiti:</p>
+            <p>È necessario possedere i seguenti requisiti:</p>
             <ul style={{ listStyle: 'inside'}}>
                 <p>
                 <li>• età compresa tra i 18 e i 29 anni

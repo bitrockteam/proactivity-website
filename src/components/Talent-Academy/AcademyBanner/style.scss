@@ -5,7 +5,9 @@
     margin: 20px 0;
     display: flex;
     align-items: center;
-
+    position: sticky;
+    top: 93px;
+    z-index: 10;
     .academy-text{
         border-bottom: 1px solid white;
         display: inline-flex;
