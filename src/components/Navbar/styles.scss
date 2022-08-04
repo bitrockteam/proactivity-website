@@ -16,9 +16,9 @@ nav {
     top:0;
     left:0;
     justify-content:flex-start;
-> a {
+> img {
     padding: 0 24px;
-    height: auto
+    height:57px;
 }
 
 svg {display:none;}
@@ -26,13 +26,11 @@ svg {display:none;}
 
 .links-container {
     border-left: 2px solid #EBEBEB;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: inherit;
-    padding: 0px 50px;
-    > a {
+    height:100%;
+    display:flex;
+    align-items:center; > a {
+    padding:20px 0 20px 80px;
+    
     cursor:pointer;
     margin:0;
     >p {
@@ -42,6 +40,8 @@ svg {display:none;}
             color:rgba(0,0,0,0.5)
         }
     }
+    
+
 }
 }
 
@@ -86,8 +86,7 @@ svg {display:none;}
         }
 
         img {
-            height:60px;
-            margin-right: 10px;
+            height:40px;
         }
     }
 
@@ -96,7 +95,7 @@ svg {display:none;}
     .mobile-navigation {
         position:fixed;
         display:block;
-        top:-36%;
+        top:-30%;
         left:0;
         width:100%;
         background-color:white;

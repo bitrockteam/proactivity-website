@@ -1,26 +1,46 @@
-
 import React, { useRef } from 'react'
 import { Root } from 'react-static'
 import NavBar from './components/Navbar'
+import Landing from './components/Landing'
+import SectionContainer from './components/SectionContainer'
 import './app.scss'
 import Footer from './components/Footer'
-import { Router } from "@reach/router"
-import Home from './pages/home'
-import TalentAcademy from './pages/talent-academy'
+import More from './components/More'
+import Mindset from './components/Mindset'
+import HowWeWork from './components/HowWeWork'
+import Technologies from './components/Technologies'
+import JoinUs from './components/JoinUs'
+import Contacts from './components/Contacts'
+import CookieNotice from './components/CookieNotice'
 
 function App() {
 
   return (
-    <>
     <Root>
-      <NavBar />
-      <Router default="/">
-        <Home path="/" />
-        <TalentAcademy path="/talent-academy" />
-      </Router>
-      <Footer />
+      <NavBar/>
+      <div className="content">
+        <Landing/>
+        <SectionContainer name={"more"} sectionTitle={"Quality. Experience. Delivery."}>
+          <More/>
+        </SectionContainer>
+        <SectionContainer name={"how-we-work"} sectionTitle={"How we work"}>
+          <HowWeWork/>
+         </SectionContainer>
+        <SectionContainer name={"mindset"}  sectionTitle={"Mindset"}>
+          <Mindset/>
+        </SectionContainer>
+        <SectionContainer name={"technologies"} sectionTitle={"Technologies"}>
+          <Technologies/>
+        </SectionContainer>
+        <SectionContainer name={"join-us"} sectionTitle={"Join Our Team"}>
+          <JoinUs/>
+        </SectionContainer>
+        <SectionContainer name={"contacts"} sectionTitle={"Contacts"}>
+          <Contacts/>
+        </SectionContainer>
+      </div>
+      <Footer/>
     </Root>
-    </>
   )
 }
 
