@@ -7,7 +7,7 @@
     align-items: center;
     position: sticky;
     top: 93px;
-    z-index: 10;
+    z-index: 1;
     .academy-text{
         border-bottom: 1px solid white;
         display: inline-flex;
@@ -34,12 +34,17 @@
     .academy-banner{
         height: auto;
         padding: 20px 0;
+        .academy-text{
+            flex-direction: column;
+            border:  none
+        }
+    }
+    .candidatura{
+        display: none;
     }
     .application-text{
         display: flex;
         flex-direction: column;
     }
-    .academy-text{
-        flex-direction: column;
-    }
+    
 }

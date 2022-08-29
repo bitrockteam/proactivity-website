@@ -20,17 +20,17 @@ function Home() {
               <SectionContainer name={"more"} sectionTitle={"Quality. Experience. Delivery."}>
                 <More/>
               </SectionContainer>
-              <div id="how-we-work" style={{ marginTop: '-80px', paddingTop: '80px' }}>
+              <div id="how-we-work" style={{ marginTop: '-265px', paddingTop: '265px' }}>
                 <SectionContainer   name={"how-we-work"} sectionTitle={"How we work"}>
                   <HowWeWork/>
                 </SectionContainer>
               </div>
-              <div id="mindset" style={{ marginTop: '-80px', paddingTop: '80px' }}>
+              <div id="mindset" style={{ marginTop: '-265px', paddingTop: '265px' }}>
                 <SectionContainer name={"mindset"}  sectionTitle={"Mindset"}>
                   <Mindset/>
                 </SectionContainer>
               </div>
-              <div id="technologies" style={{ marginTop: '-80px', paddingTop: '80px' }}>
+              <div id="technologies" style={{ marginTop: '-265px', paddingTop: '265px' }}>
                 <SectionContainer name={"technologies"} sectionTitle={"Technologies"}>
                   <Technologies/>
                 </SectionContainer>
@@ -38,12 +38,12 @@ function Home() {
             </div>
             <AcademyCta />
             <div className="content">
-              <div id="join-us" style={{ marginTop: '-80px', paddingTop: '80px' }}>
+              <div id="join-us" style={{ marginTop: '-265px', paddingTop: '265px' }}>
                 <SectionContainer name={"join-us"} sectionTitle={"Join Our Team"}>
                   <JoinUs/>
                 </SectionContainer>
               </div>
-              <div id="contacts" style={{ marginTop: '-80px', paddingTop: '80px' }}>
+              <div id="contacts" style={{ marginTop: '-265px', paddingTop: '265px' }}>
                 <SectionContainer name={"contacts"} sectionTitle={"Contacts"}>
                   <Contacts/>
                 </SectionContainer>
