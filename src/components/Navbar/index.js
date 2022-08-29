@@ -1,6 +1,5 @@
-import React, {Fragment, useEffect, useRef} from 'react';
+import React, { useRef } from 'react';
 import './styles.scss'
-import { Link } from "react-scroll";
 import { Link as Linkto } from "@reach/router"
 
 function NavBar() {
@@ -10,7 +9,7 @@ function NavBar() {
     return(
         <div className="nav-container">
         <nav>
-            <Linkto to=""><img alt='logo' width={400}  src="./Logo_Proactivity.png"/></Linkto>
+            <Linkto to=""><img alt='logo' width={400}  src="/Logo_Proactivity.png"/></Linkto>
             <div className = "links-container">
                 <a  href='/#how-we-work'><p>How we work</p></a>
                 <a  href='/#mindset'><p>Mindset</p></a>
