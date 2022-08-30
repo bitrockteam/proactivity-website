@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles.scss'
-import Fade from 'react-reveal/Fade';
 
 function Footer() {
 
@@ -8,7 +7,7 @@ function Footer() {
         <div className="footer-container">
             <div className="footer-content">
                 <div>
-                    <img src="./Logo_Proactivity_Bianco.png" alt="ProActivity" style={{
+                    <img src="/Logo_Proactivity_Bianco.png" alt="ProActivity" style={{
                         width: '255px',
                         paddingBottom: '24px'
                     }} />
@@ -32,15 +31,15 @@ function Footer() {
                 <div>
                     <h4>Proud To Support</h4>
                     <a target="_blank" rel="noreferrer" href="https://shetechitaly.org/?lang=en">
-                        <img src="./SheTech.png" alt="SheTech" width="100px" />
+                        <img src="/SheTech.png" alt="SheTech" width="100px" />
                     </a>
                     <a target="_blank" rel="noreferrer" href="https://www.treedom.net/en/organization/fortitude-group/event/fortitude-forest/">
-                        <img src="./Treedom.png" alt="Treedom" width="125px" />
+                        <img src="/Treedom.png" alt="Treedom" width="125px" />
                     </a>
                 </div>
             </div>
             <div className = "footer-copyright">
-                <p>ProActivity - A <a href="https://fortitudegroup.it/" target="_blank">Fortitude Group</a> Company © Copyright {new Date().getFullYear()}.  All rights reserved.  VAT 11501860966 - Original artwork by Maurizio Monti</p>
+                <p>ProActivity - A <a rel='noreferrer' href="https://fortitudegroup.it/" target="_blank">Fortitude Group</a> Company © Copyright {new Date().getFullYear()}.  All rights reserved.  VAT 11501860966 - Original artwork by Maurizio Monti</p>
             </div>
         </div>
     )
