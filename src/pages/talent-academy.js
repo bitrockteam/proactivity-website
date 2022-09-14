@@ -30,7 +30,7 @@ function TalentAcademy() {
                                 <p>L’iniziativa è destinata a <b> giovani neodiplomati ad indirizzo informatico </b>, motivati ad intraprendere uno stimolante percorso formativo per consolidare le proprie skill. I candidati ideali per la nostra Talent Academy sono persone che condividano la nostra passione per la tecnologia, desiderose di crescere ed imparare.</p>
                             </Fade>
                     </SectionContainer>
-                    <Prerequisites />
+                    {/* <Prerequisites /> */}
                 </div>
             </div>
             <InfoAcademy />
