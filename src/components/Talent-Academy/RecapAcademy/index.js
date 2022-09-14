@@ -13,7 +13,7 @@ function RecapAcademy() {
                 <p>DATA INZIO DEL CORSO <br/> <b>Mercoledì 28 settembre 2022</b></p>
                 <p>DATA DI FINE CORSO <br/> <b>Giovedì 13 ottobre 2022</b></p>
                 <p>DURATA <br/> <b>70 ore</b></p>
-                <p>POSTI MASSIMI  <br/> <b>15</b></p>
+                <p>POSTI MASSIMI  <br/> <b>8</b></p>
                 <p>DEADLINE INVIO DOMANDA  <br/> <b>Venerdì 16 settembre 2022</b></p>
             </div>
          </div>
