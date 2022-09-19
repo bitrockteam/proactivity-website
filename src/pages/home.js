@@ -15,7 +15,7 @@ function Home() {
     return(
           <>
             <Landing/>
-            <AcademyBanner />
+            {/* <AcademyBanner /> */}
             <div className="content">
               <SectionContainer name={"more"} sectionTitle={"Quality. Experience. Delivery."}>
                 <More/>
