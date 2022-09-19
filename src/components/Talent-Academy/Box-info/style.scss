@@ -4,34 +4,9 @@
     p{
         color: #485d6d; 
     }
-    padding: 60px 0;
-
+    padding: 40px 0 80px  0;
     h2{
         font-size: 42px;
-    }
-
-    .box-info{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-        align-items: center;
-    
-        .box{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 50%;
-            height: 300px;
-            padding: 10px 24px;
-            border: 1px solid #29363f;
-            background-color: #acbbc4;
-            margin-bottom: 20px;
-
-            p { 
-                color: #485d6d
-            }
-        }
     }
 }
 

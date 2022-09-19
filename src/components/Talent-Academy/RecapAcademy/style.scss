@@ -5,17 +5,6 @@
     position: relative;
     margin: 20px 0;
 
-    &::after{
-        content: '';
-        height: 80%; 
-        width: 2px;
-        top: 10%; 
-        border-right: 1px solid;
-        line-height: 10px;
-        position: absolute;
-        left: 60%;
-        color: #fff;
-    }
 
     .text{
         justify-content: center;
